@@ -1,7 +1,7 @@
 import './App.css';
 
 function App() {
-	return <div className='App'>Whaddup Doc!</div>;
+	return <div className='App'>Whereas</div>;
 }
 
 export default App;
