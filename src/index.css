@@ -23,13 +23,23 @@
 	--dark-blue-grey: #261c4f;
 }
 @font-face {
-	font-family: 'GothamBold';
+	font-family: 'Gotham-Bold';
 	src: url('./fonts/GothamBold.ttf'), sans-serif;
 }
 
 @font-face {
-	font-family: 'GothamBook';
+	font-family: 'Gotham-Book';
 	src: url('./fonts/GothamBook.ttf'), sans-serif;
+}
+
+@font-face {
+	font-family: 'Arvo-Regular';
+	src: url('./fonts/Arvo-Regular.ttf'), sans-serif;
+}
+
+@font-face {
+	font-family: 'Arvo-Italic';
+	src: url('./fonts/Arvo-Italic.ttf'), sans-serif;
 }
 body {
 	font-size: 62.5%; /* 1rem = 10px */
