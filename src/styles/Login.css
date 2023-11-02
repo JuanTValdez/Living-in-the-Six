@@ -1,0 +1,9 @@
+.login-container {
+	width: 23dvw;
+
+	/* Temp styles */
+
+	height: 57dvh;
+	margin: auto auto;
+	outline: 2px solid pink;
+}
