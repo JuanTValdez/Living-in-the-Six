@@ -7,16 +7,8 @@
 }
 
 .close-btn {
-	text-align: center;
+	filter: invert(36%) sepia(76%) saturate(430%) hue-rotate(202deg)
+		brightness(96%) contrast(88%);
 
-	color: white;
-	height: 3rem;
 	width: 3rem;
-	padding: 1rem;
-	border-radius: 50%;
-	background-color: var(--iris);
-}
-.close-btn:after {
-	content: '\f057';
-	color: white;
 }
