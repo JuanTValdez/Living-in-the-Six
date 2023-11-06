@@ -5,3 +5,18 @@
 	margin: 233px auto 0;
 	outline: 2px solid pink;
 }
+
+.close-btn {
+	text-align: center;
+
+	color: white;
+	height: 3rem;
+	width: 3rem;
+	padding: 1rem;
+	border-radius: 50%;
+	background-color: var(--iris);
+}
+.close-btn:after {
+	content: '\f057';
+	color: white;
+}
