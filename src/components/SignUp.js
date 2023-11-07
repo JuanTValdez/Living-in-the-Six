@@ -1,4 +1,6 @@
 import { useEffect, useState, React } from 'react';
+import { LoginSocialFacebook } from 'reactjs-social-login';
+import { FacebookLoginButton } from 'react-social-login-buttons';
 import '../styles/SignUp.css';
 
 import Close from '../images/times-circle-solid.svg';
@@ -22,12 +24,13 @@ export default function SignUp() {
 			callback: handleCallbackResponse,
 		});
 
-		google.accounts.id.renderButton(document.getElementById('google-sign-in'), {
+		google.accounts.id.renderButton(document.getElementById('google-sign-up'), {
 			theme: 'filled_blue',
 			size: 'large',
 			text: 'continue_with',
 		});
 	}, []);
+
 	return (
 		<div className='sign-up-container'>
 			<div className='media-sign-up'>
@@ -37,7 +40,18 @@ export default function SignUp() {
 				</div>
 
 				<div id='google-sign-up'></div>
-				<div id='facebook-sign-up'></div>
+				<div id='facebook-sign-up'>
+					<LoginSocialFacebook
+						appId='776750570885292'
+						onResolve={(response) => {
+							console.log(response);
+						}}
+						onReject={(error) => {
+							console.log(error);
+						}}>
+						<FacebookLoginButton />
+					</LoginSocialFacebook>
+				</div>
 			</div>
 		</div>
 	);
