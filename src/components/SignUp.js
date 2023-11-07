@@ -1,19 +1,17 @@
-import { useEffect, React } from 'react';
+import { useEffect, useState, React } from 'react';
 import '../styles/SignUp.css';
 
 import Close from '../images/times-circle-solid.svg';
 
 const { jwtDecode } = require('jwt-decode');
 export default function SignUp() {
-	// const handleCallbackResponse = function (response) {
-	// 	var userObject = jwt_decode(response.credential);
-	// 	console.log(userObject);
-	// };
-
-	function handleCallbackResponse(response) {
+	const [user, setUser] = useState({});
+	const handleCallbackResponse = function (response) {
 		var userObject = jwtDecode(response.credential);
+
+		setUser(userObject);
 		console.log(userObject);
-	}
+	};
 
 	useEffect(() => {
 		/* global google */
@@ -24,8 +22,9 @@ export default function SignUp() {
 		});
 
 		google.accounts.id.renderButton(document.getElementById('google-sign-in'), {
-			theme: 'outline',
+			theme: 'filled_blue',
 			size: 'large',
+			text: 'continue_with',
 		});
 	}, []);
 	return (
@@ -33,7 +32,7 @@ export default function SignUp() {
 			<div className='media-sign-up'>
 				<div className='member'>
 					Become a Member
-					<img className='close-btn' src={Close} alt='Close'></img>
+					<img className='close-btn' src={Close} alt=''></img>
 				</div>
 
 				<div id='google-sign-in'></div>
