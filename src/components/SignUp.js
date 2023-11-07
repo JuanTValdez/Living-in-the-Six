@@ -6,6 +6,7 @@ import Close from '../images/times-circle-solid.svg';
 const { jwtDecode } = require('jwt-decode');
 export default function SignUp() {
 	const [user, setUser] = useState({});
+
 	const handleCallbackResponse = function (response) {
 		var userObject = jwtDecode(response.credential);
 
@@ -35,7 +36,8 @@ export default function SignUp() {
 					<img className='close-btn' src={Close} alt=''></img>
 				</div>
 
-				<div id='google-sign-in'></div>
+				<div id='google-sign-up'></div>
+				<div id='facebook-sign-up'></div>
 			</div>
 		</div>
 	);
