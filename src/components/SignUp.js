@@ -13,7 +13,13 @@ export default function SignUp() {
 		var userObject = jwtDecode(response.credential);
 
 		setUser(userObject);
-		console.log(userObject);
+		console.log('Google Response: ', userObject);
+	};
+
+	const handleFacebookResponse = function (response) {
+		setUser(response.data);
+		console.log('Facebook Response: ', response);
+		console.log('Email: ', response.data);
 	};
 
 	useEffect(() => {
@@ -25,31 +31,32 @@ export default function SignUp() {
 		});
 
 		google.accounts.id.renderButton(document.getElementById('google-sign-up'), {
-			theme: 'filled_blue',
+			theme: 'outline',
+			width: '260px',
 			size: 'large',
 			text: 'continue_with',
+			shape: 'pill',
 		});
 	}, []);
 
 	return (
 		<div className='sign-up-container'>
+			<div className='member'>
+				Become a Member
+				<img className='close-btn' src={Close} alt=''></img>
+			</div>
 			<div className='media-sign-up'>
-				<div className='member'>
-					Become a Member
-					<img className='close-btn' src={Close} alt=''></img>
-				</div>
-
 				<div id='google-sign-up'></div>
 				<div id='facebook-sign-up'>
 					<LoginSocialFacebook
 						appId='776750570885292'
 						onResolve={(response) => {
-							console.log(response);
+							handleFacebookResponse(response);
 						}}
 						onReject={(error) => {
 							console.log(error);
 						}}>
-						<FacebookLoginButton />
+						<FacebookLoginButton text='Continue with Facebook' />
 					</LoginSocialFacebook>
 				</div>
 			</div>

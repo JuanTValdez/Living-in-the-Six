@@ -13,7 +13,20 @@
 	width: 3rem;
 }
 
-#google-sign-up {
+.media-sign-up {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin: 0 auto;
-	/* width: 20%; */
+	width: 80%;
+	outline: 2px solid red;
+}
+
+#google-sign-up {
+	
+}
+
+.hi{
+	background-color: green;
+	width: 2000px;
 }

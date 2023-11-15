@@ -1,16 +1,14 @@
 import './App.css';
 // import Login from './components/Login';
-import SignUp from './components/SignUp';
-
+// import SignUp from './components/SignUp';
+import Home from './components/Home.js';
 function App() {
-
-	
 	return (
 		<div className='App'>
-			 {/* <Login /> */}
-			 
+			{/* <Login /> */}
+			{/* <SignUp /> */}
 
-			<SignUp />
+			<Home />
 		</div>
 	);
 }
