@@ -3,7 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 250px 0 25rem;
-	height: 10dvh;
+	height: 100px;
 }
 
 .nav ul {
@@ -18,7 +18,7 @@
 	min-width: 100px;
 	padding: 1rem 0 10px 0;
 	text-align: center;
-	background-color: var(--dusk);
+	/* background-color: var(--dusk); */
 	color: var(--white);
 	border-radius: 1.65rem;
 }
@@ -39,3 +39,10 @@
 	font-weight: bold;
 }
 
+.login-btn {
+	background-color: var(--dusk);
+}
+
+.signup-btn {
+	background-color: var(--iris);
+}
