@@ -1,4 +1,4 @@
-import './App.css';
+import './GlobalVariables.css';
 // import Login from './components/Login';
 // import SignUp from './components/SignUp';
 import Home from './components/Home.js';
