@@ -8,6 +8,23 @@
 
 .nav ul {
 	display: flex;
+	padding: 0;
+	/* align-content: center; */
 	list-style: none;
 	gap: 2rem;
+}
+
+nav ul li {
+	min-width: 100px;
+	min-height: 35px;
+
+	background-color: var(--dusk);
+	color: var(--white);
+	border-radius: 1.65rem;
+}
+
+.login-btn,
+.signup-btn {
+	margin: auto 0;
+	text-align: center;
 }
