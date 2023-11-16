@@ -1,0 +1,10 @@
+.gradient {
+	height: 728px;
+	background-image: linear-gradient(
+		to top,
+		var(--light-peach) ,
+		var(--pale-salmon) ,
+		var(--powder-pink) ,
+		var(--pale-lilac) 
+	);
+}
