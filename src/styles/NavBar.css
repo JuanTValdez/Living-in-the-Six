@@ -16,7 +16,8 @@
 
 nav ul li {
 	min-width: 100px;
-
+	padding: 1rem 0 10px 0;
+	text-align: center;
 	background-color: var(--dusk);
 	color: var(--white);
 	border-radius: 1.65rem;
@@ -24,6 +25,4 @@ nav ul li {
 
 .login-btn,
 .signup-btn {
-	padding: 1rem 0 10px 0;
-	text-align: center;
 }
