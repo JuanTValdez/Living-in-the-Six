@@ -20,6 +20,7 @@ export default function SignUp() {
 			</div>
 
 			<div className='underline'></div>
+			<p className='form-header font-size-18'>Continue with Email</p>
 			<form className='sign-up-form'>
 				<input type='text' />
 				<input type='text' />
