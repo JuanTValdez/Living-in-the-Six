@@ -22,11 +22,11 @@ export default function SignUp() {
 			<div className='underline'></div>
 			<p className='form-header font-size-18'>Continue with Email</p>
 			<form className='sign-up-form'>
-				<input type='text' />
-				<input type='text' />
-				<input type='text' />
-				<input type='text' />
-				<input type='text' />
+				<input placeholder='Name *' type='text' />
+				<input placeholder='Phone *' type='text' />
+				<input placeholder='Email *' type='text' />
+				<input placeholder='Password *' type='text' />
+				<input placeholder='Repeat Password *' type='text' />
 			</form>
 		</div>
 	);
