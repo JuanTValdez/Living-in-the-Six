@@ -1,9 +1,22 @@
 .sign-up-container {
-	width: 23dvw;
+	width: 435px;
 	/* Temp Styles */
 
 	margin: 233px auto 0;
 	outline: 2px solid pink;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.8rem 2.1rem 3.5rem 2.5rem;
+	background-color: var(--pale);
+}
+
+.header .member {
+	color: var(--dark-slate-blue);
+	font-family: 'Arvo-Regular', sans-serif;
 }
 
 .close-btn {
@@ -20,13 +33,4 @@
 	margin: 0 auto;
 	width: 80%;
 	outline: 2px solid red;
-}
-
-#google-sign-up {
-	
-}
-
-.hi{
-	background-color: green;
-	width: 2000px;
 }

@@ -7,8 +7,7 @@ export default function FacebookAuth() {
 
 	const handleFacebookResponse = function (response) {
 		setUser(response.data);
-		console.log('Facebook Response: ', response);
-		console.log('Email: ', response.data);
+		console.log('Facebook Response: ', response.data);
 	};
 	return (
 		<div>
