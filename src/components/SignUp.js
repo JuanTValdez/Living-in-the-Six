@@ -1,6 +1,7 @@
 import { React } from 'react';
 import GoogleAuth from './GoogleAuth.js';
 import FacebookAuth from './FacebookAuth.js';
+import Wave from '../images/wave2.svg'
 
 import '../styles/SignUp.css';
 
@@ -10,7 +11,8 @@ export default function SignUp() {
 	return (
 		<div className='sign-up-container'>
 			<div className='header '>
-				{/* <div className='bg-img'></div> */}
+				<img src={Wave} alt='' className='bg-img' />
+				<img src={Wave} alt='' className='bg-img2' />
 				<div className='grid-header'>
 					<p className='member font-size-22'>Become a Member</p>
 					<img className='close-btn' src={Close} alt=''></img>
