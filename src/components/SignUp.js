@@ -10,8 +10,11 @@ export default function SignUp() {
 	return (
 		<div className='sign-up-container'>
 			<div className='header '>
-				<p className='member font-size-22'>Become a Member</p>
-				<img className='close-btn' src={Close} alt=''></img>
+				{/* <div className='bg-img'></div> */}
+				<div className='grid-header'>
+					<p className='member font-size-22'>Become a Member</p>
+					<img className='close-btn' src={Close} alt=''></img>
+				</div>
 			</div>
 
 			<div className='media-sign-up'>
