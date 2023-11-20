@@ -1,7 +1,7 @@
 import { React } from 'react';
 import GoogleAuth from './GoogleAuth.js';
 import FacebookAuth from './FacebookAuth.js';
-import Wave from '../images/wave2.svg'
+import Wave from '../images/wave2.svg';
 
 import '../styles/SignUp.css';
 
@@ -26,12 +26,33 @@ export default function SignUp() {
 
 			<div className='underline'></div>
 			<p className='form-header font-size-18'>Continue with Email</p>
-			<form className='sign-up-form'>
-				<input placeholder='Name *' type='text' />
-				<input placeholder='Phone *' type='text' />
-				<input placeholder='Email *' type='text' />
-				<input placeholder='Password *' type='text' />
-				<input placeholder='Repeat Password *' type='text' />
+			<form className='sign-up-form' method='GET'>
+				<input className='input-style' placeholder='Name *' type='text' />
+				<input className='input-style' placeholder='Phone *' type='text' />
+				<input
+					className='input-style full-length'
+					placeholder='Email *'
+					type='text'
+				/>
+				<input className='input-style' placeholder='Password *' type='text' />
+				<input
+					className='input-style'
+					placeholder='Repeat Password *'
+					type='text'
+				/>
+
+				<h5 className='required full-length font-size-12'>* required fields</h5>
+
+				{/* <div>
+					<div>
+						<input type='radio' name='renter' />
+						<label>Renter</label>
+					</div>
+					<div>
+						<input type='radio' name='renter' />
+						<label>Renter</label>
+					</div>
+				</div> */}
 			</form>
 		</div>
 	);
