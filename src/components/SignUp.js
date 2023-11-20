@@ -18,12 +18,10 @@ export default function SignUp() {
 					<img className='close-btn' src={Close} alt=''></img>
 				</div>
 			</div>
-
 			<div className='media-sign-up'>
 				<GoogleAuth />
 				<FacebookAuth />
 			</div>
-
 			<div className='underline'></div>
 			<p className='form-header font-size-18'>Continue with Email</p>
 			<form className='sign-up-form' method='GET'>
@@ -41,19 +39,35 @@ export default function SignUp() {
 					type='text'
 				/>
 
-				<h5 className='required full-length font-size-12'>* required fields</h5>
+				<h5 className='required full-length font-size-10 align-right'>
+					* required fields
+				</h5>
 
-				{/* <div>
-					<div>
-						<input type='radio' name='renter' />
-						<label>Renter</label>
-					</div>
-					<div>
-						<input type='radio' name='renter' />
-						<label>Renter</label>
-					</div>
-				</div> */}
+				<label className='required font-size-14' htmlFor=''>
+					I'm a*
+				</label>
+
+				<div className='align-item-baseline'>
+					<input type='radio' name='tenant-type' />
+					<label
+						className='radio-label required font-size-14 '
+						htmlFor='Renter'>
+						Renter
+					</label>
+
+					<input type='radio' name='tenant-type' />
+					<label className='radio-label required font-size-14' htmlFor='Renter'>
+						Landlord
+					</label>
+				</div>
 			</form>
+			<div className='full-length'>
+				<span className='required font-size-14'>Already have an account?</span>{' '}
+				<a className='gotham-book font-size-10' href=''>
+					Login
+				</a>{' '}
+				<button></button>
+			</div>
 		</div>
 	);
 }

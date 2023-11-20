@@ -6,8 +6,12 @@
 
 /* Font-Sizes */
 
-.font-size-12 {
-	font-size: 1.2rem;
+.font-size-10 {
+	font-size: 1rem;
+}
+
+.font-size-14 {
+	font-size: 1.4rem;
 }
 
 .font-size-16 {
@@ -30,8 +34,19 @@
 	font-size: 3.5rem;
 }
 
+/* Font-Family */
+
+.gotham-book {
+	font-family: 'Gotham-Book';
+}
+
 /* Alignment */
 
-.text-align-right {
+.align-right {
 	text-align: right;
+}
+
+.align-item-baseline {
+	display: flex;
+	align-items: baseline;
 }
