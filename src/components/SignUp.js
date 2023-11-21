@@ -61,12 +61,27 @@ export default function SignUp() {
 					</label>
 				</div>
 			</form>
-			<div className='full-length'>
-				<span className='required font-size-14'>Already have an account?</span>{' '}
-				<a className='gotham-book font-size-10' href=''>
-					Login
-				</a>{' '}
-				<button></button>
+			<div className='have-account'>
+				<div>
+					<span className='required font-size-14'>
+						Already have an account?
+					</span>{' '}
+					<a
+						style={{
+							fontWeight: 'bold',
+							color: '#6363b7',
+							letterSpacing: '2px',
+						}}
+						className='gotham-book font-size-10'
+						href='localhost:3000'>
+						LOGIN
+					</a>{' '}
+				</div>
+				<button
+				
+					className='register gotham-book font-size-10'>
+					REGISTER
+				</button>
 			</div>
 		</div>
 	);
