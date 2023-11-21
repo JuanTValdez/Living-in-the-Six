@@ -1,13 +1,15 @@
 .sign-up-container {
-	width: 435px;
+	border: none;
+	padding: 0;
+	top: 20%;
+	left: 40%;
+	max-width: 43.5rem;
 	border-radius: 20px 0 20px 0;
-
+	background-color: var(--white);
 	overflow: hidden;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.35);
 
 	/* temp style */
-	height: 600px;
-	margin: 233px auto 0;
-	outline: 2px solid pink;
 }
 
 .header {
@@ -56,8 +58,12 @@
 .close-btn {
 	filter: invert(36%) sepia(76%) saturate(430%) hue-rotate(202deg)
 		brightness(96%) contrast(88%);
-
+	/* background-color: white; */
+	border-radius: 50%;
+	/* text-align: center; */
 	width: 3rem;
+	
+	
 }
 
 .media-sign-up {
@@ -109,7 +115,7 @@
 
 .required {
 	grid-column: 1 /3;
-	margin-bottom: 0.8rem;
+	margin: 0 0.5rem 0.8rem 0;
 	font-family: 'Gotham-Book';
 	color: var(--dark);
 }
@@ -121,14 +127,15 @@
 .have-account {
 	display: flex;
 	justify-content: space-between;
+	gap: 2rem;
 	align-items: center;
-	margin: 3rem 3rem 0 3rem;
+	margin: 3rem;
 }
 
 .register {
 	width: 10rem;
 	height: 3.3rem;
-
+	box-shadow: 0 3px 7px 0 rgba(28, 28, 28, 0.35);
 	letter-spacing: 2px;
 	font-weight: bold;
 	background-color: var(--iris);

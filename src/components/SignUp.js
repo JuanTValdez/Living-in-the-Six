@@ -9,13 +9,15 @@ import Close from '../images/times-circle-solid.svg';
 
 export default function SignUp() {
 	return (
-		<div className='sign-up-container'>
+		// <dialog open>
+		<dialog open className='sign-up-container'>
 			<div className='header '>
 				<img src={Wave} alt='' className='bg-img' />
 				<img src={Wave} alt='' className='bg-img2' />
 				<div className='grid-header'>
 					<p className='member font-size-22'>Become a Member</p>
-					<img className='close-btn' src={Close} alt=''></img>
+
+					<img className='close-btn' src={Close} alt='' />
 				</div>
 			</div>
 			<div className='media-sign-up'>
@@ -71,18 +73,16 @@ export default function SignUp() {
 							fontWeight: 'bold',
 							color: '#6363b7',
 							letterSpacing: '2px',
+							lineHeight: '3.6px',
 						}}
 						className='gotham-book font-size-10'
 						href='localhost:3000'>
 						LOGIN
 					</a>{' '}
 				</div>
-				<button
-				
-					className='register gotham-book font-size-10'>
-					REGISTER
-				</button>
+				<button className='register gotham-book font-size-10'>REGISTER</button>
 			</div>
-		</div>
+		</dialog>
+		// </dialog>
 	);
 }
