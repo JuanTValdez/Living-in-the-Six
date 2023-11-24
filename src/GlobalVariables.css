@@ -44,6 +44,9 @@
 	font-family: 'Gotham-Book';
 }
 
+.gotham-bold {
+	font-family: 'Gotham-Bold';
+}
 /* Alignment */
 
 .align-right {
@@ -58,6 +61,8 @@
 .dusk-btn {
 	width: 10rem;
 	height: 3.5rem;
+	line-height: 5.62px;
+	letter-spacing: 2px;
 	background-color: var(--dusk);
 	color: var(--white);
 	border-radius: 1.65rem;
@@ -70,6 +75,8 @@
 	width: 10rem;
 	height: 3.5rem;
 	background-color: var(--iris);
+	line-height: 5.62px;
+	letter-spacing: 2px;
 	color: var(--white);
 	border-radius: 1.65rem;
 	box-shadow: 0 3px 7px 0 rgba(28, 28, 28, 0.35);
