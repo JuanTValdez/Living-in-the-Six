@@ -1,16 +1,10 @@
-body {
-	/* background: darkolivegreen; */
-}
-
 .contact-form {
 	position: absolute;
-
 	inset: 0;
 	margin: auto auto;
 	height: 570px;
 	width: 480px;
 	padding: 4.5rem;
-	outline: 2px solid pink;
 	background-color: var(--dark-blue-grey);
 }
 
@@ -23,15 +17,34 @@ body {
 form {
 	display: flex;
 	flex-direction: column;
+
 	gap: 1.4rem;
 }
 .contact-input {
-	background-color: var(--white);
-	border: solid 1px var(--greyish);
 	width: 100%;
 	height: 4rem;
+	padding: 1.4rem;
+	line-height: 1.62;
+	font-family: 'Gotham-Book';
+	font-size: 1.3rem;
+	border: solid 1px var(--greyish);
+	outline: none;
 }
 
 .lrg-input {
 	height: 14rem;
+	resize: none;
+}
+
+.contact-form p {
+	text-align: right;
+	color: var(--white);
+	line-height: 3.6;
+}
+
+.btn-wrapper {
+	display: flex;
+	justify-content: end;
+	gap: 1rem;
+	margin-top: 8rem;
 }

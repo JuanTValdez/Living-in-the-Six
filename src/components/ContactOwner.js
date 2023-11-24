@@ -9,12 +9,17 @@ export default function ContactOwner() {
 				<input className='contact-input' placeholder='Name * ' type='text' />
 				<input className='contact-input' placeholder='Phone *' type='text' />
 				<input className='contact-input' placeholder='Email *' type='text' />
-				<input
+				<textarea
 					className='contact-input lrg-input'
 					placeholder="Hi, i'd like to schedule a visit to your rental property. Please let me know when the best date and time would be. Thank you!"
 					type='text'
 				/>
 			</form>
+			<p className='font-size-12'>* required fields</p>
+			<div className='btn-wrapper'>
+				<button className='dusk-btn'></button>
+				<button className='iris-btn'></button>
+			</div>
 		</div>
 	);
 }
