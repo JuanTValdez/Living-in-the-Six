@@ -1,0 +1,14 @@
+body {
+	/* background: darkolivegreen; */
+}
+
+.contact-form {
+	position: absolute;
+	inset: 0;
+	margin: auto auto;
+	height: 570px;
+	width: 480px;
+	padding: 4.5rem;
+	outline: 2px solid pink;
+	background-color: var(--dark-blue-grey);
+}
