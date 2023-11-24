@@ -17,8 +17,8 @@ export default function ContactOwner() {
 			</form>
 			<p className='font-size-12'>* required fields</p>
 			<div className='btn-wrapper'>
-				<button className='dusk-btn font-size-12 gotham-bold'>Cancel</button>
-				<button className='iris-btn font-size-12 gotham-bold'>Send</button>
+				<button className='dusk-btn font-size-12 gotham-bold'>CANCEL</button>
+				<button className='iris-btn font-size-12 gotham-bold'>SEND</button>
 			</div>
 		</div>
 	);
