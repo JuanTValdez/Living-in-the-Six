@@ -11,13 +11,16 @@
 .owner-title {
 	color: var(--white);
 	font-family: 'Arvo-Regular';
+	font-weight: normal;
+
+
 	line-height: 1.65;
 }
 
 form {
 	display: flex;
 	flex-direction: column;
-	
+
 	margin-top: 4rem;
 	gap: 1.4rem;
 }
@@ -32,13 +35,15 @@ form {
 	outline: none;
 }
 
+.contact-input::placeholder {
+	color: var(--greyish);
+}
 .lrg-input {
 	height: 14rem;
 	resize: none;
 }
 
 .contact-form p {
-	text-align: right;
 	color: var(--white);
 	line-height: 3.6;
 }

@@ -4,6 +4,11 @@
 	margin: 0;
 }
 
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
 /* Font-Sizes */
 
 .font-size-10 {
