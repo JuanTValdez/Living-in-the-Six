@@ -2,9 +2,33 @@
 	height: 728px;
 	background-image: linear-gradient(
 		to top,
-		var(--light-peach) ,
-		var(--pale-salmon) ,
-		var(--powder-pink) ,
-		var(--pale-lilac) 
+		var(--light-peach),
+		var(--pale-salmon),
+		var(--powder-pink),
+		var(--pale-lilac)
 	);
+	padding: 12.7rem 0 0 36rem;
+}
+
+.form-container {
+	width: 60rem;
+
+	& h1 {
+		font-family: 'Arvo-Regular';
+		color: var(--white);
+		/* line-height: 1.08; */
+		text-shadow: 2px 2px 4px rgba(81, 81, 81, 0.3);
+		letter-spacing: normal;
+		font-weight: normal;
+	}
+	&  p {
+	}
+}
+
+.homepage-form {
+	gap: 1rem;
+}
+
+.dropdown {
+	height: 32px;
 }
