@@ -22,8 +22,16 @@ export default function Home() {
 							<option value=''>Your Hood</option>
 							<option value=''>Their Hood</option>
 						</select>
-						<select className='dropdown' type='dropdown' />
-						<select className='dropdown' type='dropdown' />
+						<select className='dropdown' type='dropdown'>
+							<option value='' disabled selected hidden>
+								Select your hood
+							</option>
+						</select>{' '}
+						<select className='dropdown' type='dropdown'>
+							<option value='' disabled selected hidden>
+								Select your hood
+							</option>
+						</select>
 						<button>Search</button>
 					</form>
 				</div>

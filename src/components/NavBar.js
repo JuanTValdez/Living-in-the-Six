@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/NavBar.css';
 
 export default function NavBar() {
-	
 	return (
 		<div>
 			<nav className='nav'>
@@ -12,10 +11,12 @@ export default function NavBar() {
 					<p className='font-size-35 six'>6IX</p>
 				</div>
 				<ul className='font-size-30'>
-					<li className='login-btn'>
-						Login
+					<li>
+						<button className='dusk-btn'>Log in</button>
 					</li>
-					<li className='signup-btn'>Signup</li>
+					<li className='signup-btn'>
+						<button className='iris-btn'>Sign Up</button>
+					</li>
 				</ul>
 			</nav>
 
