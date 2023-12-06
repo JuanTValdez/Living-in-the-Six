@@ -42,3 +42,14 @@
 	padding: 0 1rem 0 1rem;
 	height: 32px;
 }
+
+.headline {
+	width: 65lvw;
+	font-family: 'Arvo-Regular';
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.29;
+
+	margin: 18rem auto 8.2rem;
+	color: var(--dark-slate-blue);
+}
