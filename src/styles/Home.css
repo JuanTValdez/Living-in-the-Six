@@ -26,6 +26,7 @@
 		line-height: 1.75;
 		margin: 2.6rem 0;
 		width: 90%;
+		color: var(--dark);
 	}
 
 	& button {
