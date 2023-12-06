@@ -68,20 +68,25 @@ export default function Home() {
 					</form>
 				</div>
 			</div>
-			<h1 className='headline font-size-60'>
-				No longer known as TDOT or T.O., The 6ix has taken over
-			</h1>
-			<h5 className='sub-heading'>Why is Toronto called the 6</h5>
-			<p className='headline-info'>
-				Before 1998, Toronto was a much smaller municipality and formed part of
-				Metropolitan Toronto. When the city amalgamated that year, Toronto grew
-				to encompass the former municipalities of York, East York, North York,
-				Etobicoke, and Scarborough. Whether it's presented as the 6, the 6ix or
-				the Six, Toronto is now called the 6, much to the chagrin of about 98%
-				of Torontonians. Toronto is called the 6 thanks to Forest Hill 'hood
-				rapper Drake, who refers to his hometown as the 6 when he named his
-				album, Views from the 6.
-			</p>
+
+			<section className='section-1'>
+				<h1 className='headline font-size-60'>
+					No longer known as TDOT or T.O., The 6ix has taken over
+				</h1>
+				<h5 className='sub-heading font-size-22'>
+					Why is Toronto called the 6?
+				</h5>
+				<p className='headline-info font-size-16'>
+					Before 1998, Toronto was a much smaller municipality and formed part
+					of Metropolitan Toronto. When the city amalgamated that year, Toronto
+					grew to encompass the former municipalities of York, East York, North
+					York, Etobicoke, and Scarborough. Whether it's presented as the 6, the
+					6ix or the Six, Toronto is now called the 6, much to the chagrin of
+					about 98% of Torontonians. Toronto is called the 6 thanks to Forest
+					Hill 'hood rapper Drake, who refers to his hometown as the 6 when he
+					named his album, Views from the 6.
+				</p>
+			</section>
 		</>
 	);
 }

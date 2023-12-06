@@ -43,13 +43,37 @@
 	height: 32px;
 }
 
-.headline {
+.section-1 {
 	width: 65lvw;
-	font-family: 'Arvo-Regular';
-	font-weight: normal;
+	margin: 18rem auto 0;
 	text-align: center;
-	line-height: 1.29;
 
-	margin: 18rem auto 8.2rem;
-	color: var(--dark-slate-blue);
+	.headline {
+		font-family: 'Arvo-Regular';
+		font-weight: normal;
+		text-align: center;
+		line-height: 1.29;
+
+		margin-bottom: 8rem;
+		color: var(--dark-slate-blue);
+	}
+
+	.sub-heading {
+		font-family: 'Arvo-Regular';
+		font-weight: normal;
+		line-height: 1.2;
+		margin-bottom: 2.5rem;
+	}
+
+	.headline-info {
+		width: 53%;
+		margin: 0 auto 8rem;
+		text-align: center;
+		font-family: 'Gotham-Book';
+
+		text-align: center;
+		line-height: 1.75;
+		letter-spacing: -0.88px;
+		color: var(--dark);
+	}
 }
