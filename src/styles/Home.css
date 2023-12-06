@@ -77,3 +77,8 @@
 		color: var(--dark);
 	}
 }
+
+.heading-2-wrapper {
+	height: 420px;
+	background-color: var(--pale-lilac);
+}

@@ -87,6 +87,10 @@ export default function Home() {
 					named his album, Views from the 6.
 				</p>
 			</section>
+
+			<div className='heading-2-wrapper'>
+				<h1></h1>
+			</div>
 		</>
 	);
 }
