@@ -68,9 +68,8 @@ export default function Home() {
 					</form>
 				</div>
 			</div>
-
-			<section className='section-1'>
-				<h1 className='headline font-size-60'>
+			<section className='section-1-container'>
+				<h1 className='headline-60 headline font-size-60'>
 					No longer known as TDOT or T.O., The 6ix has taken over
 				</h1>
 				<h5 className='sub-heading font-size-22'>
@@ -87,9 +86,62 @@ export default function Home() {
 					named his album, Views from the 6.
 				</p>
 			</section>
-
 			<div className='heading-2-wrapper'>
-				<h1></h1>
+				<h1 className='headline-60 font-size-60'>
+					Start your search now to find your next rental in the 6ix!
+				</h1>
+			</div>
+
+			<div className='section-2-container'>
+				<h1 className='headline-60 font-size-60'>
+					Check out some of our member's preferred neighborhoods!
+				</h1>
+				<div className='grid-container'>
+					<p className='headline-info font-size-16'>
+						Its location is considered one of its finest assets being a
+						10-minute walk to the Lakeshore, 15-minute streetcar ride to the
+						financial core and a 20-minute walk from the
+						entertainment/fashion/gallery districts of King St. West. Over 20
+						new restaurants have opened in the past 3 years, providing the
+						residents and workers in the community with many eclectic places to
+						dine and enjoy their developing neighbourhood. Many Canadian and US
+						design and technology firms have located to Liberty Village,
+						creating many jobs for the increasing number of citizens that have
+						moved into the growing neighbourhood.
+					</p>
+					<img src='' alt='' />
+
+					<img src='' alt='' />
+					<p className='headline-info font-size-16'>
+						Cabbagetown is one of Toronto's most popular neighbourhoods. Its
+						residents come from a wide variety of backgrounds, however they all
+						share a strong sense of community spirit and pride in their
+						neighbourhood. This community spirit is put on display every
+						September during the Cabbagetown Fall Festival that runs for an
+						entire weekend and features a mini marathon, historical walking
+						tours, a parade and a community wide yard sale. The neighbourhood is
+						home to many artists, musicians, journalists and writers. Other
+						residents include professors, doctors and social workers, many
+						affiliated with the nearby University of Toronto. Proximity to the
+						financial district and downtown core have also made the area
+						popular.
+					</p>
+
+					<p className='headline-info font-size-16'>
+						Professional singles and couples are flocking to CityPlace, one of
+						Toronto's newest neighbourhoods. CityPlace is a master planned
+						community situated on 45 acres of prime downtown Toronto real
+						estate. CityPlace encompasses 5.4 million square feet of residential
+						and commercial space making this one of the highest density
+						neighbourhoods in Toronto. Residents enjoy a commute free live, work
+						and play lifestyle. At the heart of this urban development is
+						Artspace, an outdoor public art gallery featuring installations and
+						sculptures dispersed throughout the neighbourhood. The focal point
+						of the neighbourhood is Canoe Landing Park, an 8 acre park dotted
+						with a myriad of art installations.
+					</p>
+					<img src='' alt='' />
+				</div>
 			</div>
 		</>
 	);
