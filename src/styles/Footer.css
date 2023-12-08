@@ -6,16 +6,21 @@
 	outline: 2px solid pink;
 }
 
-.stay-connected{
-  height: 350px;
-  outline: 2px solid green
+.stay-connected {
+	height: 350px;
+	outline: 2px solid green;
 }
 
-.subscribe{
-  height: 350px;
-  outline: 2px solid lawngreen
-
+.subscribe {
+	height: 350px;
+	outline: 2px solid lawngreen;
 }
 
+.media-links {
+	outline: 2px solid pink;
+	height: 40px;
 
-
+	& img {
+		background-color: red;
+	}
+}
