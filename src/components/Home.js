@@ -104,22 +104,22 @@ export default function Home() {
 						entertainment/fashion/gallery districts of King St. West. Over 20
 						new restaurants have opened in the past 3 years, providing the
 						residents and workers in the community with many eclectic places to
-						dine and enjoy their developing neighbourhood. Many Canadian and US
+						dine and enjoy their developing neighborhood. Many Canadian and US
 						design and technology firms have located to Liberty Village,
 						creating many jobs for the increasing number of citizens that have
-						moved into the growing neighbourhood.
+						moved into the growing neighborhood.
 					</p>
 					<img src='' alt='' />
 
 					<img src='' alt='' />
 					<p className='headline-info font-size-16'>
-						Cabbagetown is one of Toronto's most popular neighbourhoods. Its
+						Cabbagetown is one of Toronto's most popular neighborhoods. Its
 						residents come from a wide variety of backgrounds, however they all
 						share a strong sense of community spirit and pride in their
-						neighbourhood. This community spirit is put on display every
+						neighborhood. This community spirit is put on display every
 						September during the Cabbagetown Fall Festival that runs for an
 						entire weekend and features a mini marathon, historical walking
-						tours, a parade and a community wide yard sale. The neighbourhood is
+						tours, a parade and a community wide yard sale. The neighborhood is
 						home to many artists, musicians, journalists and writers. Other
 						residents include professors, doctors and social workers, many
 						affiliated with the nearby University of Toronto. Proximity to the
@@ -129,15 +129,15 @@ export default function Home() {
 
 					<p className='headline-info font-size-16'>
 						Professional singles and couples are flocking to CityPlace, one of
-						Toronto's newest neighbourhoods. CityPlace is a master planned
+						Toronto's newest neighborhoods. CityPlace is a master planned
 						community situated on 45 acres of prime downtown Toronto real
 						estate. CityPlace encompasses 5.4 million square feet of residential
 						and commercial space making this one of the highest density
-						neighbourhoods in Toronto. Residents enjoy a commute free live, work
+						neighborhoods in Toronto. Residents enjoy a commute free live, work
 						and play lifestyle. At the heart of this urban development is
 						Artspace, an outdoor public art gallery featuring installations and
-						sculptures dispersed throughout the neighbourhood. The focal point
-						of the neighbourhood is Canoe Landing Park, an 8 acre park dotted
+						sculptures dispersed throughout the neighborhood. The focal point
+						of the neighborhood is Canoe Landing Park, an 8 acre park dotted
 						with a myriad of art installations.
 					</p>
 					<img src='' alt='' />
