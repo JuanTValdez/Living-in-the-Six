@@ -96,19 +96,4 @@
 	border: none;
 }
 
-.contact {
-	display: flex;
-}
 
-.contact p {
-	/* width: 63rem; */
-	font-family: 'Gotham-Book';
-	/* font-weight: normal; */
-	gap: 1rem;
-	font-size: 1rem;
-	line-height: 7.8;
-	letter-spacing: 2px;
-	text-decoration: underline;
-	text
-	color: var(--dark);
-}

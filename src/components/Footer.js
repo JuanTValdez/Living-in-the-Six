@@ -8,8 +8,8 @@ export default function Footer() {
 	return (
 		<div className='footer-container'>
 			<div className='stay-connected'>
-				<h5 className='font-size-22'> Stay Connected</h5>
-				<p className='font-size-14'>
+				<h5 className='footer-heading font-size-22'> Stay Connected</h5>
+				<p className='footer-subheading font-size-14'>
 					Get social and stay up to date with all the newest listings!
 				</p>
 				<div className='media-links'>
@@ -19,8 +19,8 @@ export default function Footer() {
 				</div>
 			</div>{' '}
 			<div className='subscribe'>
-				<h5 className='font-size-22'>Subscribe</h5>
-				<p className='font-size-14'>
+				<h5 className='footer-heading font-size-22'>Subscribe</h5>
+				<p className='footer-subheading font-size-14'>
 					Receive tips, neighborhood guides, and general information to renting
 					in the city.
 				</p>
@@ -29,7 +29,7 @@ export default function Footer() {
 					<button className='iris-btn font-size-10'>Subscribe</button>
 				</form>
 				<div className='contact'>
-					<p >Contact</p>
+					<p>Contact</p>
 					<p>Terms</p>
 					<p>Private Policy</p>
 				</div>

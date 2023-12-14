@@ -7,6 +7,17 @@
 	outline: 2px solid pink;
 }
 
+.footer-heading {
+	font-family: 'Arvo-Regular';
+	font-weight: normal;
+	line-height: 1.2;
+	color: var(--dark);
+}
+
+.footer-subheading{
+	
+}
+
 .stay-connected {
 	height: 350px;
 	outline: 2px solid green;
@@ -22,7 +33,27 @@
 	height: 40px;
 
 	& img {
-		background-color: red;
+		background-color: var(--iris);
+
 		border-radius: 100%;
+		/* filter: invert(42%) sepia(11%) saturate(2352%) hue-rotate(202deg)
+			brightness(95%) contrast(96%); */
 	}
+}
+
+.contact {
+	display: flex;
+}
+
+.contact p {
+	/* width: 63rem; */
+	font-family: 'Gotham-Book';
+	/* font-weight: normal; */
+	gap: 1rem;
+	font-size: 1rem;
+	line-height: 7.8;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	text-decoration: uppercase;
+	color: var(--dark);
 }
