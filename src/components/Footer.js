@@ -26,12 +26,12 @@ export default function Footer() {
 				</p>
 				<form action='' className=''>
 					<input type='text' />
-					<button>Subscribe</button>
+					<button className='iris-btn font-size-10'>Subscribe</button>
 				</form>
 				<div className='contact'>
-					<p>Contact</p>
+					<p >Contact</p>
 					<p>Terms</p>
-					<p>Private policy</p>
+					<p>Private Policy</p>
 				</div>
 			</div>
 		</div>
