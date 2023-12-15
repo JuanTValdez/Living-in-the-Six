@@ -31,6 +31,9 @@
 }
 
 .footer-form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 	& input {
 		width: 100%;
 		height: 4rem;
@@ -38,36 +41,29 @@
 	}
 
 	& button {
-		position: relative;
-		left: 60%;
-
+		align-self: end;
 		width: 13rem;
 	}
 }
 .media-links {
 	outline: 2px solid pink;
-	height: 40px;
+	
 
-	& img {
-		background-color: var(--iris);
-
-		border-radius: 100%;
-		/* filter: invert(42%) sepia(11%) saturate(2352%) hue-rotate(202deg)
-			brightness(95%) contrast(96%); */
-	}
 }
 
 .contact {
 	display: flex;
 	justify-content: center;
+
 	gap: 1rem;
+	
 }
 
 .contact p,
 h6 {
 	font-family: 'Gotham-Book';
 
-	gap: 1rem;
+	/* gap: 1rem; */
 	font-size: 1rem;
 	line-height: 7.8;
 	font-weight: bold;

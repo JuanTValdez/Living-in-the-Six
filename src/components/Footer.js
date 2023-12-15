@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/Footer.css';
-import Twitter from '../images/twitter_sml.svg';
-import Facebook from '../images/facebook_sml.svg';
-import Insta from '../images/instagram_icon.svg';
+import Twitter from '../images/twitter.svg';
+import Facebook from '../images/facebook.svg';
+import Insta from '../images/insta.svg';
 
 export default function Footer() {
 	return (
