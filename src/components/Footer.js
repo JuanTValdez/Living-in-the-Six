@@ -24,13 +24,19 @@ export default function Footer() {
 					Receive tips, neighborhood guides, and general information to renting
 					in the city.
 				</p>
-				<form action='' className=''>
-					<input type='text' />
+				<form action='' className='footer-form'>
+					<input
+						className='font-size-13'
+						type='text'
+						placeholder='Enter Email'
+					/>
 					<button className='iris-btn font-size-10'>Subscribe</button>
 				</form>
 				<div className='contact'>
 					<p>Contact</p>
+					<h6>|</h6>
 					<p>Terms</p>
+					<h6>|</h6>
 					<p>Private Policy</p>
 				</div>
 			</div>
