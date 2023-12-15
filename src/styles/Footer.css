@@ -9,11 +9,15 @@
 }
 
 .stay-connected {
-	outline: 2px solid green;
+	/* outline: 2px solid green; */
+	display: flex;
+	flex-direction: column;
 }
 
 .subscribe {
-	outline: 2px solid lawngreen;
+	/* outline: 2px solid lawngreen; */
+	display: flex;
+	flex-direction: column;
 }
 
 .footer-heading {
@@ -24,6 +28,7 @@
 }
 
 .footer-subheading {
+	margin: 1rem 0 1rem 0;
 	font-family: 'Gotham-Book';
 	line-height: 1.57;
 	text-align: left;
@@ -46,24 +51,25 @@
 	}
 }
 .media-links {
-	outline: 2px solid pink;
-	
-
+	display: flex;
+	gap: 1rem;
 }
 
 .contact {
 	display: flex;
-	justify-content: center;
 
+	margin-top: auto;
+
+	justify-content: end;
+
+	/* outline: 2px solid pink; */
 	gap: 1rem;
-	
 }
 
 .contact p,
 h6 {
 	font-family: 'Gotham-Book';
 
-	/* gap: 1rem; */
 	font-size: 1rem;
 	line-height: 7.8;
 	font-weight: bold;
@@ -75,4 +81,12 @@ h6 {
 .contact p {
 	text-decoration: underline;
 	text-transform: uppercase;
+}
+
+.copyright {
+	justify-content: center;
+	color: var(--dark);
+	margin-top: auto;
+	font-family: 'Gotham-Book';
+	line-height: 5.57;
 }

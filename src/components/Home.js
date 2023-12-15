@@ -1,5 +1,6 @@
 // import { useEffect, useState } from 'react';
 import NavBar from '../components/NavBar.js';
+import Footer from '../components/Footer.js';
 import '../styles/Home.css';
 
 export default function Home() {
@@ -136,13 +137,14 @@ export default function Home() {
 						neighborhoods in Toronto. Residents enjoy a commute free live, work
 						and play lifestyle. At the heart of this urban development is
 						Artspace, an outdoor public art gallery featuring installations and
-						sculptures dispersed throughout the neighborhood. The focal point
-						of the neighborhood is Canoe Landing Park, an 8 acre park dotted
-						with a myriad of art installations.
+						sculptures dispersed throughout the neighborhood. The focal point of
+						the neighborhood is Canoe Landing Park, an 8 acre park dotted with a
+						myriad of art installations.
 					</p>
 					<img src='' alt='' />
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 }

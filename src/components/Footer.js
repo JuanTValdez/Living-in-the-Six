@@ -17,6 +17,9 @@ export default function Footer() {
 					<img src={Facebook} alt='' />
 					<img src={Insta} alt='' />
 				</div>
+				<p className='copyright font-size-14'>
+					Copyright © 2019 LIT6.ca, All rights reserved.
+				</p>
 			</div>{' '}
 			<div className='subscribe'>
 				<h5 className='footer-heading font-size-22'>Subscribe</h5>
