@@ -3,6 +3,10 @@ import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 import '../styles/Home.css';
 
+import LibertyVillage from '../images/home-libvillage.svg';
+import Cabbagetown from '../images/home-cabbage.svg';
+import Cityplace from '../images/home-cityplace.svg';
+
 export default function Home() {
 	// const [data, setData] = useState();
 	// const options = {
@@ -113,9 +117,9 @@ export default function Home() {
 							moved into the growing neighborhood.
 						</p>
 					</div>
-					<img src='' alt='' />
+					<img src={LibertyVillage} alt='Liberty Village Condos' />
 
-					<img src='' alt='' />
+					<img src={Cabbagetown} alt='Cabbagetown homes' />
 					<div>
 						<h1 className='neighborhood font-size-22'>Cabbage Town</h1>
 						<p className='headline-info font-size-16'>
@@ -149,7 +153,7 @@ export default function Home() {
 							Park, an 8 acre park dotted with a myriad of art installations.
 						</p>
 					</div>
-					<img src='' alt='' />
+					<img src={Cityplace} alt='Cityplace Skyline' />
 				</div>
 			</div>
 			<Footer />
