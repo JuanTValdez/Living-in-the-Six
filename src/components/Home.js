@@ -98,49 +98,57 @@ export default function Home() {
 					Check out some of our member's preferred neighborhoods!
 				</h1>
 				<div className='grid-container'>
-					<p className='headline-info font-size-16'>
-						Its location is considered one of its finest assets being a
-						10-minute walk to the Lakeshore, 15-minute streetcar ride to the
-						financial core and a 20-minute walk from the
-						entertainment/fashion/gallery districts of King St. West. Over 20
-						new restaurants have opened in the past 3 years, providing the
-						residents and workers in the community with many eclectic places to
-						dine and enjoy their developing neighborhood. Many Canadian and US
-						design and technology firms have located to Liberty Village,
-						creating many jobs for the increasing number of citizens that have
-						moved into the growing neighborhood.
-					</p>
+					<div>
+						<h1 className='neighborhood font-size-22'>Liberty Village</h1>
+						<p className='headline-info font-size-16'>
+							Its location is considered one of its finest assets being a
+							10-minute walk to the Lakeshore, 15-minute streetcar ride to the
+							financial core and a 20-minute walk from the
+							entertainment/fashion/gallery districts of King St. West. Over 20
+							new restaurants have opened in the past 3 years, providing the
+							residents and workers in the community with many eclectic places
+							to dine and enjoy their developing neighborhood. Many Canadian and
+							US design and technology firms have located to Liberty Village,
+							creating many jobs for the increasing number of citizens that have
+							moved into the growing neighborhood.
+						</p>
+					</div>
 					<img src='' alt='' />
 
 					<img src='' alt='' />
-					<p className='headline-info font-size-16'>
-						Cabbagetown is one of Toronto's most popular neighborhoods. Its
-						residents come from a wide variety of backgrounds, however they all
-						share a strong sense of community spirit and pride in their
-						neighborhood. This community spirit is put on display every
-						September during the Cabbagetown Fall Festival that runs for an
-						entire weekend and features a mini marathon, historical walking
-						tours, a parade and a community wide yard sale. The neighborhood is
-						home to many artists, musicians, journalists and writers. Other
-						residents include professors, doctors and social workers, many
-						affiliated with the nearby University of Toronto. Proximity to the
-						financial district and downtown core have also made the area
-						popular.
-					</p>
-
-					<p className='headline-info font-size-16'>
-						Professional singles and couples are flocking to CityPlace, one of
-						Toronto's newest neighborhoods. CityPlace is a master planned
-						community situated on 45 acres of prime downtown Toronto real
-						estate. CityPlace encompasses 5.4 million square feet of residential
-						and commercial space making this one of the highest density
-						neighborhoods in Toronto. Residents enjoy a commute free live, work
-						and play lifestyle. At the heart of this urban development is
-						Artspace, an outdoor public art gallery featuring installations and
-						sculptures dispersed throughout the neighborhood. The focal point of
-						the neighborhood is Canoe Landing Park, an 8 acre park dotted with a
-						myriad of art installations.
-					</p>
+					<div>
+						<h1 className='neighborhood font-size-22'>Cabbage Town</h1>
+						<p className='headline-info font-size-16'>
+							Cabbagetown is one of Toronto's most popular neighborhoods. Its
+							residents come from a wide variety of backgrounds, however they
+							all share a strong sense of community spirit and pride in their
+							neighborhood. This community spirit is put on display every
+							September during the Cabbagetown Fall Festival that runs for an
+							entire weekend and features a mini marathon, historical walking
+							tours, a parade and a community wide yard sale. The neighborhood
+							is home to many artists, musicians, journalists and writers. Other
+							residents include professors, doctors and social workers, many
+							affiliated with the nearby University of Toronto. Proximity to the
+							financial district and downtown core have also made the area
+							popular.
+						</p>
+					</div>
+					<div>
+						<h1 className='neighborhood font-size-22'>Cityplace</h1>
+						<p className='headline-info font-size-16'>
+							Professional singles and couples are flocking to CityPlace, one of
+							Toronto's newest neighborhoods. CityPlace is a master planned
+							community situated on 45 acres of prime downtown Toronto real
+							estate. CityPlace encompasses 5.4 million square feet of
+							residential and commercial space making this one of the highest
+							density neighborhoods in Toronto. Residents enjoy a commute free
+							live, work and play lifestyle. At the heart of this urban
+							development is Artspace, an outdoor public art gallery featuring
+							installations and sculptures dispersed throughout the
+							neighborhood. The focal point of the neighborhood is Canoe Landing
+							Park, an 8 acre park dotted with a myriad of art installations.
+						</p>
+					</div>
 					<img src='' alt='' />
 				</div>
 			</div>

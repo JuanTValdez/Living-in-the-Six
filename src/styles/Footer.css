@@ -60,7 +60,7 @@
 
 	margin-top: auto;
 
-	justify-content: end;
+	justify-content: flex-end;
 
 	/* outline: 2px solid pink; */
 	gap: 1rem;
