@@ -107,4 +107,9 @@
 }
 
 .neighborhood {
+	font-family: 'Arvo-Regular';
+	font-weight: normal;
+	color: var(--dark);
+	line-height: 1.2;
+	margin-bottom: 2rem;
 }
