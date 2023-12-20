@@ -108,13 +108,20 @@ export default function Home() {
 							Its location is considered one of its finest assets being a
 							10-minute walk to the Lakeshore, 15-minute streetcar ride to the
 							financial core and a 20-minute walk from the
-							entertainment/fashion/gallery districts of King St. West. Over 20
-							new restaurants have opened in the past 3 years, providing the
-							residents and workers in the community with many eclectic places
-							to dine and enjoy their developing neighborhood. Many Canadian and
-							US design and technology firms have located to Liberty Village,
-							creating many jobs for the increasing number of citizens that have
-							moved into the growing neighborhood.
+							entertainment/fashion/gallery districts of King St. West.
+						</p>{' '}
+						<p className='headline-info font-size-16'>
+							Over 20 new restaurants have opened in the past 3 years, providing
+							the residents and workers in the community with many eclectic
+							places to dine and enjoy their developing neighborhood.
+						</p>{' '}
+						<p className='headline-info font-size-16'>
+							{' '}
+							<p className='headline-info font-size-16'>
+								Many Canadian and US design and technology firms have located to
+								Liberty Village, creating many jobs for the increasing number of
+								citizens that have moved into the growing neighborhood.
+							</p>
 						</p>
 					</div>
 					<img src={LibertyVillage} alt='Liberty Village Condos' />
@@ -126,15 +133,21 @@ export default function Home() {
 							Cabbagetown is one of Toronto's most popular neighborhoods. Its
 							residents come from a wide variety of backgrounds, however they
 							all share a strong sense of community spirit and pride in their
-							neighborhood. This community spirit is put on display every
-							September during the Cabbagetown Fall Festival that runs for an
-							entire weekend and features a mini marathon, historical walking
-							tours, a parade and a community wide yard sale. The neighborhood
-							is home to many artists, musicians, journalists and writers. Other
-							residents include professors, doctors and social workers, many
-							affiliated with the nearby University of Toronto. Proximity to the
-							financial district and downtown core have also made the area
-							popular.
+							neighborhood.
+						</p>{' '}
+						<p className='headline-info font-size-16'>
+							{' '}
+							This community spirit is put on display every September during the
+							Cabbagetown Fall Festival that runs for an entire weekend and
+							features a mini marathon, historical walking tours, a parade and a
+							community wide yard sale.
+						</p>{' '}
+						<p className='headline-info font-size-16'>
+							The neighborhood is home to many artists, musicians, journalists
+							and writers. Other residents include professors, doctors and
+							social workers, many affiliated with the nearby University of
+							Toronto. Proximity to the financial district and downtown core
+							have also made the area popular.
 						</p>
 					</div>
 					<div>
@@ -146,11 +159,15 @@ export default function Home() {
 							estate. CityPlace encompasses 5.4 million square feet of
 							residential and commercial space making this one of the highest
 							density neighborhoods in Toronto. Residents enjoy a commute free
-							live, work and play lifestyle. At the heart of this urban
-							development is Artspace, an outdoor public art gallery featuring
-							installations and sculptures dispersed throughout the
-							neighborhood. The focal point of the neighborhood is Canoe Landing
-							Park, an 8 acre park dotted with a myriad of art installations.
+							live, work and play lifestyle.
+						</p>{' '}
+						<p className='headline-info font-size-16'>
+							{' '}
+							At the heart of this urban development is Artspace, an outdoor
+							public art gallery featuring installations and sculptures
+							dispersed throughout the neighborhood. The focal point of the
+							neighborhood is Canoe Landing Park, an 8 acre park dotted with a
+							myriad of art installations.
 						</p>
 					</div>
 					<img src={Cityplace} alt='Cityplace Skyline' />
