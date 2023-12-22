@@ -181,15 +181,17 @@ export default function Home() {
 				<div className='info-icons'>
 					<div>
 						<img src={MagnifyGlass} alt='d' />
-						<p></p>
+						<p className='font-size-22'>Search the city's hottest listing</p>
 					</div>
 					<div>
 						<img src={Envelope} alt='d' />
-						<p>	</p>
+						<p className='font-size-22'>
+							Contact the owner with a single click{' '}
+						</p>
 					</div>
 					<div>
 						<img src={Clock} alt='d' />
-						<p></p>
+						<p className='font-size-22'>Save time and get what you want</p>
 					</div>
 				</div>
 			</div>

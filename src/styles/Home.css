@@ -69,6 +69,7 @@
 	height: 420px;
 	background-color: var(--pale-lilac);
 	padding-top: 10rem;
+	margin-bottom: 10rem;
 
 	& h1 {
 		width: 70%;
@@ -122,8 +123,23 @@
 .info-icons {
 	display: flex;
 	flex-direction: row;
-	gap: 37rem;
+	gap: 30rem;
 	justify-content: center;
+	margin: 10rem 0 10rem 0;
+
+	& div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 20rem;
+		height: 20rem;
+	}
+
+	& p {
+		font-family: 'Arvo-Regular';
+		text-align: center;
+		margin-top: 4rem;
+	}
 }
 
 .info-icons img {
