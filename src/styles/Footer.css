@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(2, 33rem);
 
 	padding: 6rem 0 0 0;
-	height: 500px;
+	/* height: 500px; */
 	background-color: var(--light-peach);
 	justify-content: space-evenly;
 }
@@ -91,7 +91,13 @@ h6 {
 	line-height: 5.57;
 }
 
+.copyright,
+.contact {
+	margin-bottom: 4rem;
+}
+
 .footer-logo {
 	height: 10rem;
 	width: 10rem;
+	margin-top: 12rem;
 }
