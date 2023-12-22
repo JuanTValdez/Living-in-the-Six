@@ -90,3 +90,8 @@ h6 {
 	font-family: 'Gotham-Book';
 	line-height: 5.57;
 }
+
+.footer-logo {
+	height: 10rem;
+	width: 10rem;
+}

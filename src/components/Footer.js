@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css';
+import Logo from '../images/logo.svg';
 import Twitter from '../images/twitter.svg';
 import Facebook from '../images/facebook.svg';
 import Insta from '../images/insta.svg';
@@ -17,6 +18,8 @@ export default function Footer() {
 					<img src={Facebook} alt='' />
 					<img src={Insta} alt='' />
 				</div>
+
+				<img className='footer-logo' src={Logo} alt='' />
 				<p className='copyright font-size-14'>
 					Copyright © 2019 LIT6.ca, All rights reserved.
 				</p>
