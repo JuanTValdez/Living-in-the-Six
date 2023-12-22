@@ -6,7 +6,9 @@ import '../styles/Home.css';
 import LibertyVillage from '../images/home-libvillage.svg';
 import Cabbagetown from '../images/home-cabbage.svg';
 import Cityplace from '../images/home-cityplace.svg';
-
+import MagnifyGlass from '../images/benefit1.svg';
+import Envelope from '../images/benefit-2.svg';
+import Clock from '../images/benefit-3.svg';
 export default function Home() {
 	// const [data, setData] = useState();
 	// const options = {
@@ -171,6 +173,24 @@ export default function Home() {
 						</p>
 					</div>
 					<img src={Cityplace} alt='Cityplace Skyline' />
+				</div>
+				<h1 className='headline-60 font-size-60'>
+					Why our members loving Loving In The 6ix
+				</h1>
+
+				<div className='info-icons'>
+					<div>
+						<img src={MagnifyGlass} alt='d' />
+						<p></p>
+					</div>
+					<div>
+						<img src={Envelope} alt='d' />
+						<p>	</p>
+					</div>
+					<div>
+						<img src={Clock} alt='d' />
+						<p></p>
+					</div>
 				</div>
 			</div>
 			<Footer />
