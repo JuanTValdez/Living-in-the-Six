@@ -112,3 +112,8 @@
 	line-height: 1.2;
 	margin-bottom: 2rem;
 }
+
+.grid-container img{
+	height: 100%;
+	width: 100%;
+}
