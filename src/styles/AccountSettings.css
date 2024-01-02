@@ -3,3 +3,9 @@
 	padding: 8rem 38rem 31rem 37rem;
 	background-color: var(--pale-lilac-two);
 }
+
+.settings-container {
+	& h6{
+    display: inline;
+  }
+}
