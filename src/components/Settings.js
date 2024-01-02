@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/AccountSettings.css';
+import '../styles/Settings.css';
 
 export default function AccountSettings() {
 	return (
@@ -28,12 +28,22 @@ export default function AccountSettings() {
 			<h1>Account settings</h1>
 			<section>
 				<h4>Personal Information</h4>
-				<label htmlFor=''>Name</label>
-				<input placeholder='John Smith' type='text' />
+				<label htmlFor='name'>Name</label>
+				<input placeholder='John Smith' type='text' id='name' value='name' />
 				<label htmlFor=''>Phone</label>
 				<input placeholder='555-1018' type='text' />
 				<label htmlFor=''></label>
 				<input placeholder='jonh.smith@gmail.com' type='text' />
+			</section>
+
+			<section>
+				<h4>Change Password</h4>
+				<label htmlFor=''>Current Password</label>
+				<input type='text' />
+				<label htmlFor=''>New Password</label>
+				<input type='text' />
+				<label htmlFor=''>Repeat New Password</label>
+				<input type='text' />
 			</section>
 		</div>
 	);
