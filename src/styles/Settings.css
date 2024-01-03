@@ -21,6 +21,10 @@
 	margin: 6rem 0 4.5rem 0;
 
 	& p {
+		font-family: 'Gotham-Book';
+		font-weight: bold;
+		line-height: 1.2;
+		letter-spacing: 2px;
 		color: var(--iris);
 	}
 
@@ -37,6 +41,7 @@
 	line-height: 1.29;
 	color: var(--dark-slate-blue);
 }
+
 /* .settings-container { */
 /* & label {
 		display: block;
@@ -47,12 +52,21 @@
 } */
 
 .settings-container {
+
 	& label,
 	input {
 		width: 370px;
 	}
+
 	/* & div {
 		display: flex;
 		flex-direction: column;
 	} */
+}
+
+.info {
+	font-family: "Arvo-Regular";
+	line-height: 2.95;
+	font-weight: normal;
+	color: var(--dark);
 }

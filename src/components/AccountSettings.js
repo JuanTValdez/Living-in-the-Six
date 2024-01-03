@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Settings.css';
 
 export default function AccountSettings() {
 	return (
@@ -32,62 +31,30 @@ export default function AccountSettings() {
 			<h1 className='settings-headline-60 font-size-60'>Account settings</h1>
 			<section>
 				<div>
-					<h4 className='info font-size-22'>Personal Information</h4>
-
-					<div className='flex-col'>
-						<label htmlFor='name'>Name</label>
-						<input
-							placeholder='John Smith'
-							type='text'
-							id='name'
-							value='name'
-						/>
-					</div>
+					<h4 className='personal-info font-size-22'>Personal Information</h4>
+					<label htmlFor='name'>Name</label>
+					<input placeholder='John Smith' type='text' id='name' value='name' />
 				</div>
-				<div className='flex-col'>
+				<div>
 					<label htmlFor=''>Phone</label>
 					<input placeholder='555-1018' type='text' />
 				</div>
-				<div className='flex-col'>
+				<div>
+					{' '}
 					<label htmlFor=''>Email</label>
 					<input placeholder='john.smith@gmail.com' type='text' />
-				</div>
-				<div>
-					<section>
-						<h4 className='info font-size-22'>Change Password</h4>
-						<div className='flex-col'>
-							<label htmlFor=''>Current Password</label>
-
-							<input type='text' />
-						</div>
-						<div className='flex-col'>
-							<label htmlFor=''>New Password</label>
-
-							<input type='text' />
-						</div>
-						<div className='flex-col'>
-							<label htmlFor=''>Repeat New Password</label>
-							<input type='text' />
-						</div>
-					</section>
 				</div>
 			</section>
 
 			{/* <section>
-				<h4>Change Password</h4>
-				<div className='flex-col'>
-					<label htmlFor=''>Current Password</label>
-					<input type='text' />
-				</div>
-				<div className='flex-col'>
-					<label htmlFor=''>New Password</label>
-					<input type='text' />
-				</div>
-				<div className='flex-col'>
-					<label htmlFor=''>Repeat New Password</label>
-					<input type='text' />
-				</div>
-			</section> */}
+                <h4>Change Password</h4>
+                <label htmlFor=''>Current Password</label>
+                <input type='text' />
+                <label htmlFor=''>New Password</label>
+                <input type='text' />
+                <label htmlFor=''>Repeat New Password</label>
+                <input type='text' />
+            </section>  */}
 		</div>
 	);
 }
