@@ -23,10 +23,10 @@ export default function AccountSettings() {
 				<button className='iris-btn font-size-10'>Search</button>
 			</form>
 
-			<div className='flex-col'>
-				<p>Account</p>
-				<p>|</p>
-				<p>Saved Listings</p>
+			<div className='options'>
+				<p className='font-size-10'>Account</p>
+				<p className='font-size-10'>|</p>
+				<p className='font-size-10'>Saved Listings</p>
 			</div>
 
 			{/*<h1>Account settings</h1>

@@ -1,20 +1,35 @@
 .settings-container {
 	height: 108rem;
-	padding: 8rem 0px 0rem 0px;
+	padding: 8rem 0px 0rem 37rem;
 	background-color: var(--pale-lilac-two);
 }
 
 .dropdown-settings {
-	display: flex;
-	justify-content: center;
 	gap: 1rem;
+	display: flex;
+
+	margin-bottom: 7rem;
 
 	.dropdown {
-		width: 340px;
+		width: 34rem;
 	}
 }
 
- 
+.options {
+	display: flex;
+	flex-direction: row;
+	gap: 0.4rem;
+	font-size: 2rem;
+
+	& p {
+		color: var(--iris);
+	}
+
+	& :first-child,
+	:last-child {
+		text-decoration: underline;
+	}
+}
 
 /* .settings-container { */
 /* & label {
@@ -30,8 +45,8 @@
 	input {
 		width: 370px;
 	}
-	& div {
+	/* & div {
 		display: flex;
 		flex-direction: column;
-	}
+	} */
 }
