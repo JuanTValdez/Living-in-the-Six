@@ -8,8 +8,6 @@
 	gap: 1rem;
 	display: flex;
 
-	margin-bottom: 7rem;
-
 	.dropdown {
 		width: 34rem;
 	}
@@ -20,6 +18,7 @@
 	flex-direction: row;
 	gap: 0.4rem;
 	font-size: 2rem;
+	margin: 6rem 0 4.5rem 0;
 
 	& p {
 		color: var(--iris);
@@ -31,6 +30,13 @@
 	}
 }
 
+.settings-headline-60 {
+	font-family: 'Arvo-Regular';
+	font-weight: normal;
+
+	line-height: 1.29;
+	color: var(--dark-slate-blue);
+}
 /* .settings-container { */
 /* & label {
 		display: block;

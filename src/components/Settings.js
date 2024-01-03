@@ -29,8 +29,8 @@ export default function AccountSettings() {
 				<p className='font-size-10'>Saved Listings</p>
 			</div>
 
-			{/*<h1>Account settings</h1>
-				{/*<section>
+			<h1 className='settings-headline-60 font-size-60'>Account settings</h1>
+			{/*<section>
 				<div>
 					<h4>Personal Information</h4>
 					<label htmlFor='name'>Name</label>
