@@ -32,49 +32,50 @@ export default function AccountSettings() {
 			<h1 className='settings-headline-60 font-size-60'>Account settings</h1>
 			<section>
 				<h4 className='info font-size-22'>Personal Information</h4>
+				<div className='flex-row-g20'>
+					<div className=' flex-col'>
+						<label htmlFor=''>NAME</label>
+						<input className='input-1' placeholder='John Smith' type='text' />
+					</div>
 
-				<div className=' flex-col'>
-					<label htmlFor='name'>Name</label>
-					<input
-						className='input-1'
-						placeholder='John Smith'
-						type='text'
-						id='name'
-						value='name'
-					/>
+					<div className='flex-col'>
+						<label htmlFor=''>PHONE</label>
+						<input className='input-1' placeholder='555-1018' type='text' />
+					</div>
+					<div className='flex-col'>
+						<label htmlFor=''>EMAIL</label>
+						<input
+							className='input-1'
+							placeholder='john.smith@gmail.com'
+							type='text'
+						/>
+					</div>
 				</div>
 
-				<div className=' flex-col'>
-					<label htmlFor=''>Phone</label>
-					<input className='input-1' placeholder='555-1018' type='text' />
-				</div>
-				<div className='flex-col'>
-					<label htmlFor=''>Email</label>
-					<input
-						className='input-1'
-						placeholder='john.smith@gmail.com'
-						type='text'
-					/>
-				</div>
-				<div>
-					<section>
-						<h4 className='info font-size-22'>Change Password</h4>
+				<form>
+					<h4 className='info font-size-22'>Change Password</h4>
+					<div className='flex-row-g20'>
 						<div className='flex-col'>
-							<label htmlFor=''>Current Password</label>
+							<label htmlFor=''>CURRENT PASSWORD</label>
 
 							<input className='input-1' type='text' />
 						</div>
 						<div className=' flex-col'>
-							<label htmlFor=''>New Password</label>
+							<label htmlFor=''>NEW PASSWORD</label>
 
 							<input className='input-1' type='text' />
 						</div>
 						<div className=' flex-col'>
-							<label htmlFor=''>Repeat New Password</label>
+							<label htmlFor=''>REPEAT NEW PASSWORD</label>
 							<input className='input-1' type='text' />
 						</div>
-					</section>
-				</div>
+					</div>
+
+					<div className='btn-wrapper'>
+						<button className='dusk-btn font-size-10'>CANCEL</button>
+						<button className='iris-btn font-size-10'>UPDATE</button>
+					</div>
+				</form>
 			</section>
 		</div>
 	);

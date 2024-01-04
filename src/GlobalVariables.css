@@ -10,11 +10,6 @@
 	flex-direction: column;
 }
 
-.flex-row {
-	display: flex;
-	flex-direction: row;
-}
-
 /* Font-Sizes */
 
 .font-size-10 {

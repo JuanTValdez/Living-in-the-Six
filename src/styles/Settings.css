@@ -1,6 +1,11 @@
 .settings-container {
 	height: 108rem;
-	padding: 8rem 0px 0rem 37rem;
+	display: flex;
+	flex-direction: column;
+	padding-top: 8rem;
+	align-items: center;
+	justify-content: flex-start;
+
 	background-color: var(--pale-lilac-two);
 }
 
@@ -43,6 +48,10 @@
 }
 
 
+.flex-row-g20 {
+	display: flex;
+	gap: 2rem;
+}
 
 
 .info {
@@ -52,7 +61,26 @@
 	color: var(--dark);
 }
 
-.input-1{
+.settings-container label {
+	font-size: 1rem;
+	font-family: 'Gotham-Book';
+	line-height: 1.2;
+	margin: 2rem 0 0.8rem 0;
+	color: #000;
+}
+
+.input-1 {
 	width: 37rem;
 	height: 4rem;
+	font-size: 1.3rem;
+}
+
+.btn-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 5rem;
+	gap: 1.5rem;
+
+
+
 }
