@@ -1,5 +1,6 @@
 * {
-	font-size: 62.5%; /* 1rem = 10px */
+	font-size: 62.5%;
+	/* 1rem = 10px */
 	box-sizing: border-box;
 	margin: 0;
 }
@@ -9,7 +10,10 @@
 	flex-direction: column;
 }
 
-
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
 
 /* Font-Sizes */
 
@@ -52,6 +56,7 @@
 .font-size-60 {
 	font-size: 6rem;
 }
+
 /* Font-Family */
 
 .gotham-book {
@@ -61,6 +66,7 @@
 .gotham-bold {
 	font-family: 'Gotham-Bold';
 }
+
 /* Alignment */
 
 .align-right {

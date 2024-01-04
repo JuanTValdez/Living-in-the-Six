@@ -42,31 +42,17 @@
 	color: var(--dark-slate-blue);
 }
 
-/* .settings-container { */
-/* & label {
-		display: block;
-	}
-	& h6 {
-		display: inline;
-	}
-} */
 
-.settings-container {
 
-	& label,
-	input {
-		width: 370px;
-	}
-
-	/* & div {
-		display: flex;
-		flex-direction: column;
-	} */
-}
 
 .info {
 	font-family: "Arvo-Regular";
 	line-height: 2.95;
 	font-weight: normal;
 	color: var(--dark);
+}
+
+.input-1{
+	width: 37rem;
+	height: 4rem;
 }
