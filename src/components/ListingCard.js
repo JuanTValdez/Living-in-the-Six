@@ -10,10 +10,12 @@ export default function ListingCard() {
 			<div className='posted-wrapper'>
 				<p className='font-size-10'>Posted 1 hour ago</p>
 				<div className='listing-icons'>
-					<img src='' alt='' />
-					<img src='' alt='' />
+					<img src={PawPrint} alt='' />
+					<img src={Parking} alt='' />
 				</div>
 			</div>
+
+			
 		</div>
 	);
 }

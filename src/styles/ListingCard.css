@@ -21,11 +21,23 @@
 .posted-wrapper {
   display: flex;
   padding: 1.5rem 2rem;
-  
+  justify-content: space-between;
 
   & p {
     font-family: "Gotham-Book";
 
     text-transform: uppercase;
   }
+}
+
+.listing-icons {
+  display: flex;
+
+  gap: 1.25rem;
+
+}
+
+img {
+  height: 12.5px;
+  width: 12.5px;
 }
