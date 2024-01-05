@@ -34,7 +34,9 @@ export default function ListingCard() {
 					<p className='item2 font-size-10'>1 Bath </p>
 					<p className='item1 font-size-10'> 850 sq/ft </p>
 					<p className='item2 font-size-10'>Apartment</p>{' '}
+					<div>
 					<button className='iris-btn font-size-10'>VIEW DETAILS</button>
+					</div>
 				</div>
 			</div>
 		</>
