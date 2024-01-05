@@ -1,0 +1,31 @@
+.card-wrapper {
+  height: 49rem;
+  width: 34rem;
+  padding: 0 0 2.6rem;
+  border-radius: 5px;
+  border: solid 1px var(--light-periwinkle);
+  background-color: var(--white);
+  box-shadow: 0.3px 7px 0 rgba(28, 28, 27, 0.15);
+  object-fit: contain;
+
+  margin: 300px 0 0 300px
+}
+
+.listing-img {
+
+  height: 45%;
+  width: 100%;
+
+}
+
+.posted-wrapper {
+  display: flex;
+  padding: 1.5rem 2rem;
+  
+
+  & p {
+    font-family: "Gotham-Book";
+
+    text-transform: uppercase;
+  }
+}
