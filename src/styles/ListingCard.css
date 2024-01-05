@@ -6,7 +6,7 @@
 }
 
 .card-wrapper {
-  /* height: 49rem; */
+
   width: 34rem;
   padding: 0 0 2.6rem;
   border-radius: 5px;
@@ -15,7 +15,6 @@
   box-shadow: 0px 3px 7px 0 rgba(28, 28, 27, 0.15);
   object-fit: contain;
 
-  /* margin: 300px 0 0 300px */
 }
 
 .listing-img {
@@ -42,11 +41,11 @@
   justify-content: space-between;
   align-items: center;
   ;
-  padding: 0 2rem;
+  padding: 0 2rem 4rem;
 
   .price {
     font-family: "Arvo-Regular";
-    line-height: 2.95;
+    /* line-height: 2.95; */
     color: var(--dark)
   }
 
@@ -55,7 +54,7 @@
 
 
     color: var(--dark);
-    margin: 0rem 0 3.1rem 0;
+    margin: 0.8rem 0 0rem 0;
   }
 
   .save-listing {
@@ -80,8 +79,8 @@ img {
 
   display: grid;
   grid-template-columns: repeat(2, 1fr, );
-  
-  /* grid-template-rows: repeat(3, 1fr) */
+
+
 }
 
 .item1 {

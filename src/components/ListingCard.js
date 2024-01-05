@@ -26,7 +26,7 @@ export default function ListingCard() {
 					</div>
 
 					<img src={SaveListingOn} alt='' className='save-listing' />
-					{/* <img src={SaveListingOff} alt='' className='save-listing' /> */}
+					
 				</div>
 				<div className='listing-details'>
 					{' '}
