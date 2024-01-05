@@ -30,6 +30,24 @@
   }
 }
 
+.price-wrapper {
+  display: flex;
+  justify-content: space-between;
+ padding: 0 2rem;
+  .price {
+    font-family: "Arvo-Regular";
+    line-height: 2.95;    
+    color: var(--dark)
+  }
+
+  .address {
+    font-family: "Gotham-Book";
+
+    /* line-height: 1.2; */
+    color: var(--dark);
+  }
+}
+
 .listing-icons {
   display: flex;
 

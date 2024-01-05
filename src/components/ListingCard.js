@@ -3,6 +3,8 @@ import '../styles/ListingCard.css';
 import ListingImage from '../images/listing-img.png';
 import PawPrint from '../images/pets.svg';
 import Parking from '../images/parking.svg';
+import SaveListingOn from '../images/save-listing-on.svg';
+import SaveListingOff from '../images/save-listing-off.svg';
 export default function ListingCard() {
 	return (
 		<div className='card-wrapper'>
@@ -15,7 +17,15 @@ export default function ListingCard() {
 				</div>
 			</div>
 
-			
+			<div className='price-wrapper'>
+				<div className='price-address'>
+					<p className='price font-size-22'>$1597</p>
+					<p className='address font-size-14'>70 Spadina Rd.</p>
+				</div>
+
+				<img src={SaveListingOn} alt='' className='save-listing' />
+				{/* <img src={SaveListingOff} alt='' className='save-listing' /> */}
+			</div>
 		</div>
 	);
 }
