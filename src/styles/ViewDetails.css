@@ -1,0 +1,29 @@
+* {
+  /* Temporary  */
+  background-color: grey;
+
+}
+
+.details-container {
+  width: 1180px;
+  height: 570px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  border-radius: 5px;
+  box-shadow: 0 3px 7px 0 rgba(28, 28, 28, 0.15);
+  border: solid 1px var(--light-periwinkle);
+  background-color: var(--white);
+}
+
+.listing-img {
+  grid-column: 1/4;
+
+  object-fit: contain;
+}
+
+img {
+  /* grid-column: 1/3; */
+  height: 100%;
+  width: 100%;
+}

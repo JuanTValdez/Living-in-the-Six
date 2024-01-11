@@ -5,9 +5,10 @@ import './GlobalVariables.css';
 // import Home from './components/Home.js';
 // import AccountSettings from './components/Settings.js';
 // import ContactOwner from './components/ContactOwner.js';
+import ViewDetails from './components/ViewDetails.js';
 // import Footer from './components/Footer.js';
 
-import ListingCard from './components/ListingCard.js';
+// import ListingCard from './components/ListingCard.js';
 
 function App() {
 	return (
@@ -19,7 +20,8 @@ function App() {
 
 			{/* <NavBar /> */}
 			{/* <AccountSettings /> */}
-			<ListingCard />
+			{/* <ListingCard /> */}
+			<ViewDetails />
 			{/* <ContactOwner /> */}
 			{/* <Footer /> */}
 		</div>
