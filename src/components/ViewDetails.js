@@ -11,6 +11,10 @@ export default function ViewDetails() {
 					<img src={ListingImg} alt=''></img>
 					{/* Layer below img is 2 rows thicks */}
 				</div>
+				<div className='tabs'>
+					<div className='photos-tab font-size-10'>PHOTOS</div>
+					<div className='map-tab font-size-10'>MAP</div>
+				</div>
 			</div>
 			ViewDetails
 		</div>
