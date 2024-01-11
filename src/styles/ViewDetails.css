@@ -9,7 +9,9 @@
   height: 570px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-
+  grid-template-rows: repeat(7, 1fr);
+ 
+ 
   border-radius: 5px;
   box-shadow: 0 3px 7px 0 rgba(28, 28, 28, 0.15);
   border: solid 1px var(--light-periwinkle);
