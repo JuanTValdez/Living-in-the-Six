@@ -21,7 +21,7 @@ export default function ViewDetails() {
 				</div>
 
 				<div className='utilities'>
-					<div className='included'>Utilities Included</div>
+					<div className='included font-size-14'>Utilities Included</div>
 					<div className='utils-listed'>
 						<div>
 							<img src={Garbage} alt='' />
