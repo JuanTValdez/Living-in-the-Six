@@ -11,9 +11,7 @@ export default function ViewDetails() {
 		<div>
 			<div className='details-container'>
 				<div className='listing-img'>
-					{/* img is 5 layers thick */}
 					<img src={ListingImg} alt=''></img>
-					{/* Layer below img is 2 rows thicks */}
 				</div>
 				<div className='tabs'>
 					<div className='photos-tab font-size-10'>PHOTOS</div>
@@ -43,8 +41,9 @@ export default function ViewDetails() {
 						</div>
 					</div>
 				</div>
+
+				<div className='info-container'></div>
 			</div>
-			ViewDetails
 		</div>
 	);
 }
