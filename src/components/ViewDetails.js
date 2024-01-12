@@ -5,6 +5,7 @@ import Garbage from '../images/icon-garbage.svg';
 import Heating from '../images/icon-heating.svg';
 import Recycling from '../images/icon-recycling.svg';
 import Water from '../images/icon-water.svg';
+// import CloseBtn from '../images/'
 
 export default function ViewDetails() {
 	return (
@@ -42,7 +43,10 @@ export default function ViewDetails() {
 					</div>
 				</div>
 
-				<div className='info-container'></div>
+				<div className='info-container'>
+
+					{/* <img src={CloseBtn} alt="" /> */}
+				</div>
 			</div>
 		</div>
 	);

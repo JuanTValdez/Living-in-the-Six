@@ -17,7 +17,7 @@ export default function SignUp() {
 				<div className='grid-header'>
 					<p className='member font-size-22'>Become a Member</p>
 
-					<img className='close-btn' src={Close} alt='' />n
+					<img className='close-btn' src={Close} alt='' />
 				</div>
 			</div>
 			<div className='media-sign-up'>
