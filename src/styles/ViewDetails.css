@@ -116,4 +116,8 @@ body {
   grid-row: 1/17;
   /* border-left: solid 1px var(--light-periwinkle); */
   background-color: var(--white);
+
+  & .close-btn {
+    margin: 2rem 2rem 0 auto;
+  }
 }

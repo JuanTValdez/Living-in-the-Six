@@ -16,7 +16,7 @@ export default function SignUp() {
 				<img src={Wave} alt='' className='bg-img2' />
 				<div className='grid-header'>
 					<p className='member font-size-22'>Become a Member</p>
-
+					{/*  close-btn class is in Global Variables stylesheet */}
 					<img className='close-btn' src={Close} alt='' />
 				</div>
 			</div>
