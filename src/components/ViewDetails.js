@@ -5,6 +5,8 @@ import Garbage from '../images/icon-garbage.svg';
 import Heating from '../images/icon-heating.svg';
 import Recycling from '../images/icon-recycling.svg';
 import Water from '../images/icon-water.svg';
+import Pets from '../images/pets.svg';
+import Parking from '../images/parking.svg';
 import CloseBtn from '../images/times-circle-solid.svg';
 
 export default function ViewDetails() {
@@ -46,6 +48,14 @@ export default function ViewDetails() {
 				<div className='info-container'>
 					{/* close-btn class is in Global Variables stylesheet */}
 					<img className='close-btn' src={CloseBtn} alt='' />
+
+					<div className='time-posted'>
+						<p className='font-size-10'>Posted 1 hour ago</p>
+						<div className='perks'>
+							<img src={Pets} alt='' />
+							<img src={Parking} alt='' />
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

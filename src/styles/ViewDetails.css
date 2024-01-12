@@ -114,10 +114,36 @@ body {
 .info-container {
   grid-column: 4/7;
   grid-row: 1/17;
-  /* border-left: solid 1px var(--light-periwinkle); */
   background-color: var(--white);
 
   & .close-btn {
     margin: 2rem 2rem 0 auto;
+  }
+
+
+}
+
+.time-posted {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 2rem;
+
+  & p {
+    font-family: "Gotham-Book";
+    text-transform: uppercase;
+
+    color: var(--dark);
+  }
+
+  & .perks {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    & img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
   }
 }
