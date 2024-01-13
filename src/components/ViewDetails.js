@@ -49,14 +49,20 @@ export default function ViewDetails() {
 					{/* close-btn class is in Global Variables stylesheet */}
 					<img className='close-btn' src={CloseBtn} alt='' />
 
-					<div className='time-posted'>
-						<p className='font-size-10'>Posted 1 hour ago</p>
-						<div className='perks'>
-							<img src={Pets} alt='' />
-							<img src={Parking} alt='' />
-						</div>
+					{/* <div className='time-posted'> */}
+					<p className='time-posted font-size-10'>Posted 1 hour ago</p>
+					<div className='perks'>
+						<img src={Pets} alt='' />
+						<img src={Parking} alt='' />
 					</div>
+					{/* </div> */}
+
+					
+						<p className='price font-size-22'>$1597 </p>
+						<p className='address font-size-14'>70 Spadina Rd.</p>
+					
 				</div>
+				<div className='home-details'></div>
 			</div>
 		</div>
 	);
