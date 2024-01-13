@@ -57,12 +57,15 @@ export default function ViewDetails() {
 					</div>
 					{/* </div> */}
 
-					
-						<p className='price font-size-22'>$1597 </p>
-						<p className='address font-size-14'>70 Spadina Rd.</p>
-					
+					<p className='price font-size-22'>$1597 </p>
+					<p className='address font-size-14'>70 Spadina Rd.</p>
+					<div className='home-details'>
+						<p>2 Bed</p>
+						<p>1 Bath</p>
+						<p>850 sq/ft</p>
+						<p>Apartment</p>
+					</div>
 				</div>
-				<div className='home-details'></div>
 			</div>
 		</div>
 	);
