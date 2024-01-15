@@ -71,6 +71,23 @@ export default function ViewDetails() {
 						<span className='tab tab2 font-size-10'>Features</span>
 						<span className='tab tab3 font-size-10'>Amenities</span>
 					</div>
+
+					<div className='details-wrapper'>
+						<p className='font-size-14'>
+							Located in the heart of the Annex, the building has a subway
+							entrance located immediately below the building. The Spadina
+							streetcar is a short 2-minute walk away as is Bloor Street with
+							its numerous restaurants, boutiques, and shops in the Annex and
+							Yorkville. The building is just minutes away from the University
+							of Toronto and George Brown campuses and a short walk to some of
+							the main tourist attractions in Toronto such as Casa Loma, the
+							Royal Ontario Museum and Chinatown.
+						</p>
+					</div>
+
+					<button className='iris-btn details-btn font-size-10'>
+						Contact Owner
+					</button>
 				</div>
 			</div>
 		</div>

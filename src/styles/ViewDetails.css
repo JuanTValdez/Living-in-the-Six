@@ -1,9 +1,3 @@
-body {
-  /* Temporary  */
-  background-color: grey;
-
-}
-
 .details-container {
   width: 1180px;
   height: 570px;
@@ -167,7 +161,6 @@ body {
   grid-column: 1/2;
   grid-row: 3/4;
   align-items: center;
-  /* margin: auto 0; */
 
 }
 
@@ -194,6 +187,8 @@ body {
   grid-column: 3/5;
   grid-row: 3/4;
 
+  border: 0.5px solid var(--light-periwinkle);
+
   & :first-child {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -210,7 +205,6 @@ body {
     grid-column: 1/2;
     grid-row: 2/3;
 
-
   }
 
   & :nth-child(4) {
@@ -220,15 +214,17 @@ body {
   }
 
   & :nth-child(n) {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
     font-family: 'Gotham-Book';
     text-transform: uppercase;
     line-height: 1.5;
     color: var(--dark);
-    /* margin: auto auto; */
+    border: 0.5px solid var(--light-periwinkle);
 
-    border: 1px solid var(--light-periwinkle)
+
   }
 }
 
@@ -237,8 +233,6 @@ body {
   justify-content: space-around;
   grid-column: 1/5;
   grid-row: 5/6;
-
-
   & .tab {
     display: flex;
     justify-content: center;
@@ -247,20 +241,45 @@ body {
     font-family: "Gotham-Book";
     font-weight: bold;
     text-transform: uppercase;
+    padding-top: 0.8rem;
     color: var(--dark);
   }
 
   & .tab1 {
     border: 1px solid var(--light-periwinkle);
-    background: linear-gradient(180deg, var(--iris) 20%, var(--white) 20%);
+    background: linear-gradient(180deg, var(--iris) 18%, var(--white) 18%);
   }
 
   & .tab2 {
-    border: 1px  solid var(--light-periwinkle);
-    background: linear-gradient(180deg, var(--light-peach) 20%, var(--white) 20%);
+    border-top: 1px solid var(--light-periwinkle);
+    border-bottom: 1px solid var(--light-periwinkle);
+    background: linear-gradient(180deg, var(--light-peach) 18%, var(--white) 18%);
   }
 
   & .tab3 {
-    background: linear-gradient(180deg, var(--light-peach) 20%, var(--white) 20%);
+    border: 1px solid var(--light-periwinkle);
+    background: linear-gradient(180deg, var(--light-peach) 20%, var(--white) 18%);
   }
+}
+
+.details-wrapper {
+  grid-column: 1/5;
+  grid-row: 6/10;
+  padding: 2rem;
+
+  & p {
+    font-family: "Gotham-Book";
+    line-height: 1.5;
+
+    color: var(--dark);
+  }
+}
+
+.details-btn {
+  grid-column: 3/5;
+  grid-row: 10/11;
+  width: 75%;
+  margin: 0 auto;
+  color: var(--white);
+
 }
