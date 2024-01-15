@@ -227,7 +227,40 @@ body {
     line-height: 1.5;
     color: var(--dark);
     /* margin: auto auto; */
-    
+
     border: 1px solid var(--light-periwinkle)
+  }
+}
+
+.info-tabs {
+  display: flex;
+  justify-content: space-around;
+  grid-column: 1/5;
+  grid-row: 5/6;
+
+
+  & .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Gotham-Book";
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--dark);
+  }
+
+  & .tab1 {
+    border: 1px solid var(--light-periwinkle);
+    background: linear-gradient(180deg, var(--iris) 20%, var(--white) 20%);
+  }
+
+  & .tab2 {
+    border: 1px  solid var(--light-periwinkle);
+    background: linear-gradient(180deg, var(--light-peach) 20%, var(--white) 20%);
+  }
+
+  & .tab3 {
+    background: linear-gradient(180deg, var(--light-peach) 20%, var(--white) 20%);
   }
 }

@@ -65,6 +65,12 @@ export default function ViewDetails() {
 						<p>850 sq/ft</p>
 						<p>Apartment</p>
 					</div>
+
+					<div className='info-tabs'>
+						<span className='tab tab1 font-size-10'>About</span>
+						<span className='tab tab2 font-size-10'>Features</span>
+						<span className='tab tab3 font-size-10'>Amenities</span>
+					</div>
 				</div>
 			</div>
 		</div>
