@@ -233,6 +233,7 @@
   justify-content: space-around;
   grid-column: 1/5;
   grid-row: 5/6;
+
   & .tab {
     display: flex;
     justify-content: center;
@@ -279,6 +280,7 @@
   grid-column: 3/5;
   grid-row: 10/11;
   width: 75%;
+  text-transform: uppercase;
   margin: 0 auto;
   color: var(--white);
 
