@@ -1,5 +1,6 @@
-// import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import NavBar from '../components/NavBar.js';
+import Signup from '../components/SignUp.js';
 import Footer from '../components/Footer.js';
 import '../styles/NavBar.css';
 
@@ -12,12 +13,19 @@ import MagnifyGlass from '../images/benefit1.svg';
 import Envelope from '../images/benefit-2.svg';
 import Clock from '../images/benefit-3.svg';
 export default function Home() {
-	// const [data, setData] = useState();
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	const openModal = () => {
+		setIsModalOpen(true);
+	};
+
+	const closeModal = () => {
+		setIsModalOpen(false);
+	};
 
 	return (
 		<>
-
-
+			<Signup isOpen={isModalOpen} onClose={closeModal} />
 			<nav className='nav'>
 				<img className='logo' src={Logo} alt='hh' />
 
@@ -25,12 +33,11 @@ export default function Home() {
 					<li>
 						<button className='dusk-btn'>Log in</button>
 					</li>
-					<li className='signup-btn'>
+					<li onClick={openModal} className='signup-btn'>
 						<button className='iris-btn'>Sign Up</button>
 					</li>
 				</ul>
 			</nav>
-
 			<div className='gradient'>
 				<div className='form-container'>
 					<h1 className='font-size-60'>Find your way home</h1>
@@ -100,7 +107,6 @@ export default function Home() {
 					Start your search now to find your next rental in the 6ix!
 				</h1>
 			</div>
-
 			<div className='section-2-container'>
 				<h1 className='headline-60 font-size-60'>
 					Check out some of our member's preferred neighborhoods!

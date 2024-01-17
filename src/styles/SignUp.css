@@ -1,3 +1,11 @@
+.modal {
+	display: none;
+}
+
+.modal.open {
+	display: flex;
+}
+
 .sign-up-container {
 	border: none;
 	padding: 0;

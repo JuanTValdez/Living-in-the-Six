@@ -6,83 +6,98 @@ import Wave from '../images/wave2.svg';
 import '../styles/SignUp.css';
 
 import Close from '../images/times-circle-solid.svg';
+import { hasFormSubmit } from '@testing-library/user-event/dist/utils/index.js';
 
-export default function SignUp() {
+export default function SignUp({ isOpen, onClose }) {
+	const handleClose = () => {
+		onClose();
+	};
+
 	return (
 		// <dialog open>
-		<dialog open className='sign-up-container'>
-			<div className='header '>
-				<img src={Wave} alt='' className='bg-img' />
-				<img src={Wave} alt='' className='bg-img2' />
-				<div className='grid-header'>
-					<p className='member font-size-22'>Become a Member</p>
-					{/*  close-btn class is in Global Variables stylesheet */}
-					<img className='close-btn' src={Close} alt='' />
+		<div className={`modal ${isOpen ? 'open' : ''}`}>
+			<dialog open className='sign-up-container '>
+				<div className='header '>
+					<img src={Wave} alt='' className='bg-img' />
+					<img src={Wave} alt='' className='bg-img2' />
+					<div className='grid-header'>
+						<p className='member font-size-22'>Become a Member</p>
+						{/*  close-btn class is in Global Variables stylesheet */}
+						<img
+							className='close-btn'
+							src={Close}
+							onClick={handleClose}
+							alt=''
+						/>
+					</div>
 				</div>
-			</div>
-			<div className='media-sign-up'>
-				<GoogleAuth />
-				<FacebookAuth />
-			</div>
-			<div className='underline'></div>
-			<p className='form-header font-size-18'>Continue with Email</p>
-			<form className='sign-up-form' method='GET'>
-				<input className='input-style' placeholder='Name *' type='text' />
-				<input className='input-style' placeholder='Phone *' type='text' />
-				<input
-					className='input-style full-length'
-					placeholder='Email *'
-					type='text'
-				/>
-				<input className='input-style' placeholder='Password *' type='text' />
-				<input
-					className='input-style'
-					placeholder='Repeat Password *'
-					type='text'
-				/>
+				<div className='media-sign-up'>
+					<GoogleAuth />
+					<FacebookAuth />
+				</div>
+				<div className='underline'></div>
+				<p className='form-header font-size-18'>Continue with Email</p>
+				<form className='sign-up-form' method='GET'>
+					<input className='input-style' placeholder='Name *' type='text' />
+					<input className='input-style' placeholder='Phone *' type='text' />
+					<input
+						className='input-style full-length'
+						placeholder='Email *'
+						type='text'
+					/>
+					<input className='input-style' placeholder='Password *' type='text' />
+					<input
+						className='input-style'
+						placeholder='Repeat Password *'
+						type='text'
+					/>
 
-				<h5 className='required full-length font-size-10 align-right'>
-					* required fields
-				</h5>
+					<h5 className='required full-length font-size-10 align-right'>
+						* required fields
+					</h5>
 
-				<label className='required font-size-14' htmlFor=''>
-					I'm a*
-				</label>
-
-				<div className='align-item-baseline'>
-					<input type='radio' name='tenant-type' />
-					<label
-						className='radio-label required font-size-14 '
-						htmlFor='Renter'>
-						Renter
+					<label className='required font-size-14' htmlFor=''>
+						I'm a*
 					</label>
 
-					<input type='radio' name='tenant-type' />
-					<label className='radio-label required font-size-14' htmlFor='Renter'>
-						Landlord
-					</label>
+					<div className='align-item-baseline'>
+						<input type='radio' name='tenant-type' />
+						<label
+							className='radio-label required font-size-14 '
+							htmlFor='Renter'>
+							Renter
+						</label>
+
+						<input type='radio' name='tenant-type' />
+						<label
+							className='radio-label required font-size-14'
+							htmlFor='Renter'>
+							Landlord
+						</label>
+					</div>
+				</form>
+				<div className='have-account'>
+					<div>
+						<span className='required font-size-14'>
+							Already have an account?
+						</span>{' '}
+						<a
+							style={{
+								fontWeight: 'bold',
+								color: '#6363b7',
+								letterSpacing: '2px',
+								lineHeight: '3.6px',
+							}}
+							className='gotham-book font-size-10'
+							href='localhost:3000'>
+							LOGIN
+						</a>{' '}
+					</div>
+					<button className='register gotham-book font-size-10'>
+						REGISTER
+					</button>
 				</div>
-			</form>
-			<div className='have-account'>
-				<div>
-					<span className='required font-size-14'>
-						Already have an account?
-					</span>{' '}
-					<a
-						style={{
-							fontWeight: 'bold',
-							color: '#6363b7',
-							letterSpacing: '2px',
-							lineHeight: '3.6px',
-						}}
-						className='gotham-book font-size-10'
-						href='localhost:3000'>
-						LOGIN
-					</a>{' '}
-				</div>
-				<button className='register gotham-book font-size-10'>REGISTER</button>
-			</div>
-		</dialog>
-		// </dialog>
+			</dialog>
+		</div>
 	);
 }
