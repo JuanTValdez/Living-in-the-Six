@@ -1,8 +1,10 @@
 // import { useEffect, useState } from 'react';
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
-import '../styles/Home.css';
+import '../styles/NavBar.css';
 
+import '../styles/Home.css';
+import Logo from '../images/logo.svg';
 import LibertyVillage from '../images/home-libvillage.svg';
 import Cabbagetown from '../images/home-cabbage.svg';
 import Cityplace from '../images/home-cityplace.svg';
@@ -11,24 +13,24 @@ import Envelope from '../images/benefit-2.svg';
 import Clock from '../images/benefit-3.svg';
 export default function Home() {
 	// const [data, setData] = useState();
-	// const options = {
-	// 	method: 'GET',
-	// 	headers: {
-	// 		accept: 'application/json',
-	// 		'REPLIERS-API-KEY': 'REPLIERS-API-KEY: pNWk2VQ5bGdSk1uHUC2lFOL2cdd6T6',
-	// 	},
-	// };
-
-	// useEffect(() => {
-	// 		fetch('https://sandbox.repliers.io/listings/deleted', options)
-	// 		.then((response) => response.json())
-	// 		.then((response) => console.log('RESPONSE: ', response))
-	// 		.catch((err) => console.error(err));
-	// }, []);
 
 	return (
 		<>
-			<NavBar />
+
+
+			<nav className='nav'>
+				<img className='logo' src={Logo} alt='hh' />
+
+				<ul className='font-size-30'>
+					<li>
+						<button className='dusk-btn'>Log in</button>
+					</li>
+					<li className='signup-btn'>
+						<button className='iris-btn'>Sign Up</button>
+					</li>
+				</ul>
+			</nav>
+
 			<div className='gradient'>
 				<div className='form-container'>
 					<h1 className='font-size-60'>Find your way home</h1>
