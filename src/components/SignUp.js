@@ -6,7 +6,6 @@ import Wave from '../images/wave2.svg';
 import '../styles/SignUp.css';
 
 import Close from '../images/times-circle-solid.svg';
-import { hasFormSubmit } from '@testing-library/user-event/dist/utils/index.js';
 
 export default function SignUp({ isOpen, onClose }) {
 	const handleClose = () => {
@@ -15,7 +14,12 @@ export default function SignUp({ isOpen, onClose }) {
 
 	return (
 		// <dialog open>
+
 		<div className={`modal ${isOpen ? 'open' : ''}`}>
+			{/* CREATE OVERLAY TO CLOSE MODAL */}
+			<div className='modal-close-overlay' onClick={handleClose}>
+				{' '}
+			</div>
 			<dialog open className='sign-up-container '>
 				<div className='header '>
 					<img src={Wave} alt='' className='bg-img' />
