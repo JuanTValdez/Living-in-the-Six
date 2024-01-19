@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import NavBar from '../components/NavBar.js';
+// import NavBar from '../components/NavBar.js';
 import Signup from '../components/SignUp.js';
+import Login from '../components/Login.js';
 import Footer from '../components/Footer.js';
 import '../styles/NavBar.css';
 
@@ -25,7 +26,8 @@ export default function Home() {
 
 	return (
 		<>
-			<Signup isOpen={isModalOpen} onClose={closeModal} />
+			{/* <Signup isOpen={isModalOpen} onClose={closeModal} /> */}
+			<Login />
 			<nav className='nav'>
 				<img className='logo' src={Logo} alt='hh' />
 
