@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 // import NavBar from '../components/NavBar.js';
 import Signup from '../components/SignUp.js';
 import Login from '../components/Login.js';
@@ -23,20 +23,29 @@ export default function Home() {
 	const closeModal = () => {
 		setIsModalOpen(false);
 	};
+	const openedModal = useRef();
 
+	const open = () => {
+		openedModal.current.showModal();
+	};
+	const fdofd = 'HOWDY DOO DAH';
 	return (
 		<>
-			{/* <Signup isOpen={isModalOpen} onClose={closeModal} /> */}
-			<Login />
+			<Signup isOpen={isModalOpen} onClose={closeModal} />
+			<Login onRef={openedModal} onOpen={open} onClose={closeModal} />
 			<nav className='nav'>
 				<img className='logo' src={Logo} alt='hh' />
 
 				<ul className='font-size-30'>
 					<li>
-						<button className='dusk-btn'>Log in</button>
+						<button onClick={open} className='dusk-btn'>
+							Log in
+						</button>
 					</li>
-					<li onClick={openModal} className='signup-btn'>
-						<button className='iris-btn'>Sign Up</button>
+					<li className='signup-btn'>
+						<button onClick={openModal} className='iris-btn'>
+							Sign Up
+						</button>
 					</li>
 				</ul>
 			</nav>
