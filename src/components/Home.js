@@ -16,29 +16,35 @@ import Clock from '../images/benefit-3.svg';
 export default function Home() {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 
+	// const openModal = () => {
+	// 	setIsModalOpen(true);
+	// };
+
+	// const closeModal = () => {
+	// 	setIsModalOpen(false);
+	// };
+	const openedModal = useRef();
+
 	const openModal = () => {
-		setIsModalOpen(true);
+		openedModal.current.showModal();
 	};
 
 	const closeModal = () => {
-		setIsModalOpen(false);
+		openedModal.current.close();
 	};
-	const openedModal = useRef();
 
-	const open = () => {
-		openedModal.current.showModal();
-	};
 	const fdofd = 'HOWDY DOO DAH';
 	return (
 		<>
+			{/* MAKE SIGNUP WORK WITH NEW MODAL SYSTEM */}
 			<Signup isOpen={isModalOpen} onClose={closeModal} />
-			<Login onRef={openedModal} onOpen={open} onClose={closeModal} />
+			<Login onRef={openedModal} onClose={closeModal} />
 			<nav className='nav'>
 				<img className='logo' src={Logo} alt='hh' />
 
 				<ul className='font-size-30'>
 					<li>
-						<button onClick={open} className='dusk-btn'>
+						<button onClick={openModal} className='dusk-btn'>
 							Log in
 						</button>
 					</li>

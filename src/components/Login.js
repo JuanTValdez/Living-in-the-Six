@@ -4,8 +4,6 @@ import FacebookAuth from './FacebookAuth.js';
 import '../styles/Login.css';
 
 export default function Login({ onRef, onOpen, onClose }) {
-	
-
 	return (
 		<div className='modal-login'>
 			{/* <div className='modal-overlay'></div> */}
@@ -14,7 +12,9 @@ export default function Login({ onRef, onOpen, onClose }) {
 			</button>
 
 			<dialog ref={onRef} className='login-container'>
-				<button className='font-size-22'>close modal</button>
+				<button onClick={onClose} className='font-size-22'>
+					close modal
+				</button>
 				<div className='font-size-30'>MODAL MODAL MODAL</div>
 				<div className='media-login'>
 					<GoogleAuth /> <FacebookAuth />
