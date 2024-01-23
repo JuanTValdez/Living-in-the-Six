@@ -33,7 +33,7 @@ export default function Home() {
 		openedModal.current.close();
 	};
 
-	const fdofd = 'HOWDY DOO DAH';
+	
 	return (
 		<>
 			{/* MAKE SIGNUP WORK WITH NEW MODAL SYSTEM */}

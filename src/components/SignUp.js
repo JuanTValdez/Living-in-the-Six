@@ -7,30 +7,23 @@ import '../styles/SignUp.css';
 
 import Close from '../images/times-circle-solid.svg';
 
-export default function SignUp({ isOpen, onClose }) {
-	const handleClose = () => {
-		onClose();
-	};
-
+export default function SignUp({ onRef, isOpen, onClose }) {
 	return (
 		// <dialog open>
 
-		<div className={`modal ${isOpen ? 'open' : ''}`}>
+		<div>
 			{/* CREATE OVERLAY TO CLOSE MODAL */}
-			<div className='modal-close-overlay' onClick={handleClose}></div>
+
 			<dialog open className='sign-up-container '>
+				<div className='modal-close-overlay'></div>
+
 				<div className='header '>
 					<img src={Wave} alt='' className='bg-img' />
 					<img src={Wave} alt='' className='bg-img2' />
 					<div className='grid-header'>
 						<p className='member font-size-22'>Become a Member</p>
 						{/*  close-btn class is in Global Variables stylesheet */}
-						<img
-							className='close-btn'
-							src={Close}
-							onClick={handleClose}
-							alt=''
-						/>
+						<img className='close-btn' src={Close} alt='' />
 					</div>
 				</div>
 				<div className='media-sign-up'>
