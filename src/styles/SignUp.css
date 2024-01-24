@@ -5,7 +5,7 @@
 		height: 100lvh;
 		width: 100lvw;
 		z-index: -1;
-		background-color: rgba(0, 1, 0, 0.4);
+	
 }
 
 .modal-close-overlay {
@@ -140,7 +140,8 @@
 	justify-content: space-between;
 	gap: 2rem;
 	align-items: center;
-	margin: 3rem;
+	padding: 3rem;
+	
 }
 
 .register {

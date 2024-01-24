@@ -8,12 +8,15 @@ export default function Login({ onRef, onOpen, onClose }) {
 		// <div className='modal-login'>
 		<dialog ref={onRef} className='login-container'>
 			<div onClick={onClose} className='modal-overlay'></div>
-			<button onClick={onClose} className='font-size-22'>
-				close modal
-			</button>
-			<div className='font-size-30'>MODAL MODAL MODAL</div>
-			<div className='media-login'>
-				<GoogleAuth /> <FacebookAuth />
+
+			<div className='z-index-20'>
+				<button onClick={onClose} className='font-size-22'>
+					close modal
+				</button>
+				<div className='font-size-30'>MODAL MODAL MODAL</div>
+				<div className='media-login'>
+					<GoogleAuth /> <FacebookAuth />
+				</div>
 			</div>
 		</dialog>
 		// </div>

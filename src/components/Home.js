@@ -29,16 +29,19 @@ export default function Home() {
 	// Opens modal base on clicked targets innerHTML.
 	const openModal = (data) => {
 		if (data.target.innerHTML === 'Sign Up') {
+			document.body.style.overflow = 'hidden';
 			openSignupModal.current.showModal();
 		}
 
 		if (data.target.innerHTML === 'Log in') {
+			document.body.style.overflow = 'hidden';
 			openLoginModal.current.showModal();
 		}
 		console.log(data.target);
 	};
 
 	const closeModal = () => {
+		document.body.style.overflow = 'unset';
 		openSignupModal.current.close();
 		openLoginModal.current.close();
 	};

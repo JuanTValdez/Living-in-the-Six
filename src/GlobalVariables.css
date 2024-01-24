@@ -9,6 +9,11 @@
 
 /* Global Classes */
 
+.z-index-20 {
+	z-index: 20;
+	background-color: var(--white)
+}
+
 .flex-col {
 	display: flex;
 	flex-direction: column;

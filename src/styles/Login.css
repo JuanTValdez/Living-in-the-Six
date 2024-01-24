@@ -1,10 +1,16 @@
+
+
+.sign-up-container::backdrop {
+	/* background-color: red; */
+}
+
 .modal-overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100lvh;
 	width: 100lvw;
-	z-index: -1;
+	/* z-index: ; */
 	background-color: rgba(0, 1, 0, 0.4);
 }
 
