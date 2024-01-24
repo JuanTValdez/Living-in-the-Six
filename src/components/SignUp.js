@@ -1,4 +1,4 @@
-import { React, useRef } from 'react';
+import { React } from 'react';
 import GoogleAuth from './GoogleAuth.js';
 import FacebookAuth from './FacebookAuth.js';
 import Wave from '../images/wave2.svg';
@@ -6,13 +6,13 @@ import Wave from '../images/wave2.svg';
 import '../styles/SignUp.css';
 
 import Close from '../images/times-circle-solid.svg';
-
+  
 export default function SignUp({ onRef, isOpen, onClose }) {
 	return (
 		// <dialog open>
 
-		<dialog onRef={} className='sign-up-container '>
-			<div className='modal-close-overlay'></div>
+		<dialog ref={onRef} className='sign-up-container '>
+			<div className='modal-close-overlay' onClick={onClose}></div>
 
 			<div className='header '>
 				<img src={Wave} alt='' className='bg-img' />
@@ -20,7 +20,7 @@ export default function SignUp({ onRef, isOpen, onClose }) {
 				<div className='grid-header'>
 					<p className='member font-size-22'>Become a Member</p>
 
-					<img className='close-btn' src={Close} alt='' />
+					<img className='close-btn' onClick={onClose} src={Close} alt='' />
 				</div>
 			</div>
 

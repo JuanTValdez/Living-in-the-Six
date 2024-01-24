@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useRef, useState } from 'react';
 // import NavBar from '../components/NavBar.js';
 import Signup from '../components/SignUp.js';
 import Login from '../components/Login.js';
@@ -23,22 +23,32 @@ export default function Home() {
 	// const closeModal = () => {
 	// 	setIsModalOpen(false);
 	// };
-	const openedModal = useRef();
+	const openLoginModal = useRef();
+	const openSignupModal = useRef();
 
-	const openModal = () => {
-		openedModal.current.showModal();
+	// Opens modal base on clicked targets innerHTML.
+	const openModal = (data) => {
+		if (data.target.innerHTML === 'Sign Up') {
+			openSignupModal.current.showModal();
+		}
+
+		if (data.target.innerHTML === 'Log in') {
+			openLoginModal.current.showModal();
+		}
+		console.log(data.target);
 	};
 
 	const closeModal = () => {
-		openedModal.current.close();
+		openSignupModal.current.close();
+		openLoginModal.current.close();
 	};
 
-	
 	return (
 		<>
 			{/* MAKE SIGNUP WORK WITH NEW MODAL SYSTEM */}
-			<Signup isOpen={isModalOpen} onClose={closeModal} />
-			<Login onRef={openedModal} onClose={closeModal} />
+			{isModalOpen}
+			<Signup onRef={openSignupModal} onClose={closeModal} />
+			<Login onRef={openLoginModal} onClose={closeModal} />
 			<nav className='nav'>
 				<img className='logo' src={Logo} alt='hh' />
 
