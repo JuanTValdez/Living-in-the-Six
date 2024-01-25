@@ -14,6 +14,12 @@
 	background-color: var(--white)
 }
 
+.form-header {
+	font-family: 'Arvo-Regular';
+
+	
+}
+
 .flex-col {
 	display: flex;
 	flex-direction: column;

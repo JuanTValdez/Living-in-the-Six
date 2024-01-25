@@ -49,7 +49,7 @@ export default function Home() {
 	return (
 		<>
 			{/* MAKE SIGNUP WORK WITH NEW MODAL SYSTEM */}
-			{isModalOpen}
+			{/* {isModalOpen} */}
 			<Signup onRef={openSignupModal} onClose={closeModal} />
 			<Login onRef={openLoginModal} onClose={closeModal} />
 			<nav className='nav'>

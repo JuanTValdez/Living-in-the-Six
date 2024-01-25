@@ -1,28 +1,36 @@
-
-
-.sign-up-container::backdrop {
-	/* background-color: red; */
-}
-
 .modal-overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 100lvh;
-	width: 100lvw;
-	/* z-index: ; */
+
 	background-color: rgba(0, 1, 0, 0.4);
 }
 
 .login-container {
-	position: absolute;
+	/* position: absolute; */
 	inset: 0;
 	margin: auto;
 	border-radius: 20px 0 20px 0;
-	outline: 2px solid lawngreen;
+	
 	background-color: var(--white);
+	overflow: hidden;
 
+}
 
+.login-wrapper {
+
+	padding: 3rem;
+	outline: 2px solid lawngreen;
+}
+
+.form-login {
+	outline: 2px solid blue;
+}
+
+.oath-logins {
+	height: 100%;
+	width: 100%;
+	outline: 2px solid pink;
 }
 
 .media-login {
