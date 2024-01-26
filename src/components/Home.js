@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef} from 'react';
 // import NavBar from '../components/NavBar.js';
 import Signup from '../components/SignUp.js';
 import Login from '../components/Login.js';
@@ -14,7 +14,7 @@ import MagnifyGlass from '../images/benefit1.svg';
 import Envelope from '../images/benefit-2.svg';
 import Clock from '../images/benefit-3.svg';
 export default function Home() {
-	const [isModalOpen, setIsModalOpen] = useState(false);
+	// const [isModalOpen, setIsModalOpen] = useState(false);
 
 	// const openModal = () => {
 	// 	setIsModalOpen(true);

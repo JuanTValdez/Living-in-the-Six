@@ -11,7 +11,6 @@ export default function Login({ onRef, onOpen, onClose }) {
 			<div onClick={onClose} className='modal-overlay'></div>
 
 			<div className='z-index-20'>
-				
 				<img
 					src={CloseBtn}
 					onClick={onClose}
@@ -44,6 +43,15 @@ export default function Login({ onRef, onOpen, onClose }) {
 							<h5 className='required full-length font-size-10 align-right'>
 								* required fields
 							</h5>
+							<div className='flex-center-items'>
+								<p className='font-size-14'>Not a member?</p>
+								<p className='font-size-14'>Sign Up</p>
+							</div>
+							<div className='flex-center-items'>
+								<p className=' font-size-14'>Forgot password?</p>
+								<p className='font-size-14'>Recovery</p>
+								<button className='iris-btn font-size-10'>Login</button>
+							</div>
 						</form>
 					</div>
 				</div>

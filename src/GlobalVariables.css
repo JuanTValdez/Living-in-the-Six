@@ -17,7 +17,13 @@
 .form-header {
 	font-family: 'Arvo-Regular';
 
-	
+
+}
+
+.flex-center-items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .flex-col {
