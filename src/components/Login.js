@@ -43,11 +43,11 @@ export default function Login({ onRef, onOpen, onClose }) {
 							<h5 className='required full-length font-size-10 align-right'>
 								* required fields
 							</h5>
-							<div className='flex-center-items'>
+							<div className='not-member align-items-center'>
 								<p className='font-size-14'>Not a member?</p>
 								<p className='font-size-14'>Sign Up</p>
 							</div>
-							<div className='flex-center-items'>
+							<div className='forgot-password align-items-center'>
 								<p className=' font-size-14'>Forgot password?</p>
 								<p className='font-size-14'>Recovery</p>
 								<button className='iris-btn font-size-10'>Login</button>
