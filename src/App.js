@@ -5,7 +5,7 @@ import SignUp from './components/SignUp';
 import Home from './components/Home.js';
 // import AccountSettings from './components/Settings.js';
 // import ContactOwner from './components/ContactOwner.js';
-// import ViewDetails from './components/ViewDetails.js';
+import ViewDetails from './components/ViewDetails.js';
 // import Footer from './components/Footer.js';
 
 // import ListingCard from './components/ListingCard.js';
@@ -21,7 +21,7 @@ function App() {
 			{/* <NavBar /> */}
 			{/* <AccountSettings /> */}
 			{/* <ListingCard /> */}
-			{/* <ViewDetails /> */}
+			<ViewDetails />
 			{/* <ContactOwner /> */}
 			{/* <Footer /> */}
 		</div>

@@ -50,8 +50,7 @@ export default function Home() {
 		<>
 			{/* MAKE SIGNUP WORK WITH NEW MODAL SYSTEM */}
 			{/* {isModalOpen} */}
-			<Signup onRef={openSignupModal} onClose={closeModal} />
-			<Login onRef={openLoginModal} onClose={closeModal} />
+
 			<nav className='nav'>
 				<img className='logo' src={Logo} alt='hh' />
 
@@ -233,6 +232,8 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			<Signup onRef={openSignupModal} onClose={closeModal} />
+			<Login onRef={openLoginModal} onClose={closeModal} />
 
 			<Footer />
 		</>

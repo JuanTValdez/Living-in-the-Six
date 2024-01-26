@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleAuth from './GoogleAuth.js';
 import FacebookAuth from './FacebookAuth.js';
+import CloseBtn from '../images/times-circle-solid.svg';
 import '../styles/Login.css';
 
 export default function Login({ onRef, onOpen, onClose }) {
@@ -10,9 +11,12 @@ export default function Login({ onRef, onOpen, onClose }) {
 			<div onClick={onClose} className='modal-overlay'></div>
 
 			<div className='z-index-20'>
-				<button onClick={onClose} className='font-size-22'>
-					close modal
-				</button>
+				
+				<img
+					src={CloseBtn}
+					onClick={onClose}
+					className='close-btn font-size-22'
+					alt=''></img>
 				<div className='login-wrapper'>
 					<div className='oath-logins'>
 						<GoogleAuth />

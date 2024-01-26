@@ -11,11 +11,12 @@
 	inset: 0;
 	margin: auto;
 	border-radius: 20px 0 20px 0;
-	
+
 	background-color: var(--white);
 	overflow: hidden;
 
 }
+
 
 .login-wrapper {
 
