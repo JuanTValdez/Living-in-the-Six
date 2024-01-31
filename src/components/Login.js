@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleAuth from './GoogleAuth.js';
 import FacebookAuth from './FacebookAuth.js';
+import Wave from '../images/wave2.svg';
 import CloseBtn from '../images/times-circle-solid.svg';
 import '../styles/Login.css';
 
@@ -11,11 +12,15 @@ export default function Login({ onRef, onOpen, onClose }) {
 			<div onClick={onClose} className='modal-overlay'></div>
 
 			<div className='z-index-20'>
-				<img
-					src={CloseBtn}
-					onClick={onClose}
-					className='close-btn font-size-22'
-					alt=''></img>
+				<div className='header '>
+					<img src={Wave} alt='' className='bg-img' />
+					<img src={Wave} alt='' className='bg-img2' />
+					<div className='grid-header'>
+						<p className='member font-size-22'>Become a Member</p>
+
+						<img className='close-btn' onClick={onClose} src={CloseBtn} alt='' />
+					</div>
+				</div>
 				<div className='login-wrapper'>
 					<div className='oath-logins'>
 						<GoogleAuth />
@@ -43,11 +48,11 @@ export default function Login({ onRef, onOpen, onClose }) {
 							<h5 className='required full-length font-size-10 align-right'>
 								* required fields
 							</h5>
-							<div className='not-member align-items-center'>
+							<div className='not-member align-items-center '>
 								<p className='font-size-14'>Not a member?</p>
 								<p className='font-size-14'>Sign Up</p>
 							</div>
-							<div className='forgot-password align-items-center'>
+							<div className='forgot-password align-items-center justify-space-between'>
 								<p className=' font-size-14'>Forgot password?</p>
 								<p className='font-size-14'>Recovery</p>
 								<button className='iris-btn font-size-10'>Login</button>
