@@ -16,13 +16,18 @@ export default function Login({ onRef, onOpen, onClose }) {
 					<img src={Wave} alt='' className='bg-img' />
 					<img src={Wave} alt='' className='bg-img2' />
 					<div className='grid-header'>
-						<p className='member font-size-22'>Become a Member</p>
+						<p className='member font-size-22'>Login to your account</p>
 
-						<img className='close-btn' onClick={onClose} src={CloseBtn} alt='' />
+						<img
+							className='close-btn'
+							onClick={onClose}
+							src={CloseBtn}
+							alt=''
+						/>
 					</div>
 				</div>
 				<div className='login-wrapper'>
-					<div className='oath-logins'>
+					<div className='media-sign-up'>
 						<GoogleAuth />
 						<FacebookAuth />
 					</div>
@@ -49,12 +54,12 @@ export default function Login({ onRef, onOpen, onClose }) {
 								* required fields
 							</h5>
 							<div className='not-member align-items-center '>
-								<p className='font-size-14'>Not a member?</p>
-								<p className='font-size-14'>Sign Up</p>
+								<p className='required font-size-14'>Not a member?</p>
+								<p className='required font-size-14'>Sign Up</p>
 							</div>
-							<div className='forgot-password align-items-center justify-space-between'>
-								<p className=' font-size-14'>Forgot password?</p>
-								<p className='font-size-14'>Recovery</p>
+							<div className='forgot-password  '>
+								<p className='required font-size-14'>Forgot password?</p>
+								<p className='required font-size-14'>Recovery</p>
 								<button className='iris-btn font-size-10'>Login</button>
 							</div>
 						</form>
