@@ -28,8 +28,8 @@ export default function Login({ onRef, onOpen, onClose }) {
 				</div>
 				<div className='login-wrapper'>
 					<div className='media-sign-up'>
-						<GoogleAuth />
 						<FacebookAuth />
+						<GoogleAuth />
 					</div>
 					<div className='form-login'>
 						<p
@@ -55,11 +55,17 @@ export default function Login({ onRef, onOpen, onClose }) {
 							</h5>
 							<div className='not-member align-items-center '>
 								<p className='required font-size-14'>Not a member?</p>
-								<p className='required font-size-14'>Sign Up</p>
+								<a className='required link font-size-10' href='localhost:3000'>
+									Sign Up
+								</a>
 							</div>
 							<div className='forgot-password  '>
 								<p className='required font-size-14'>Forgot password?</p>
-								<p className='required font-size-14'>Recovery</p>
+								<a
+									className='required  link font-size-10 '
+									href='localhost:3000'>
+									Recover
+								</a>
 								<button className='iris-btn font-size-10'>Login</button>
 							</div>
 						</form>

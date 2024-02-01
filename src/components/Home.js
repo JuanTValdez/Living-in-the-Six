@@ -1,4 +1,4 @@
-import { useRef} from 'react';
+import { useRef } from 'react';
 // import NavBar from '../components/NavBar.js';
 import Signup from '../components/SignUp.js';
 import Login from '../components/Login.js';
@@ -82,7 +82,7 @@ export default function Home() {
 							<option className='font-size-13' value=''>
 								My 'Hood'
 							</option>
-							<option className='font-size-13' value=''>
+							<option className='font-size-13' value='f'>
 								Your Hood
 							</option>
 							<option className='font-size-13' value=''>
@@ -154,14 +154,14 @@ export default function Home() {
 							the residents and workers in the community with many eclectic
 							places to dine and enjoy their developing neighborhood.
 						</p>{' '}
-						<p className='headline-info font-size-16'>
+						<div className='headline-info font-size-16'>
 							{' '}
 							<p className='headline-info font-size-16'>
 								Many Canadian and US design and technology firms have located to
 								Liberty Village, creating many jobs for the increasing number of
 								citizens that have moved into the growing neighborhood.
 							</p>
-						</p>
+						</div>
 					</div>
 					<img src={LibertyVillage} alt='Liberty Village Condos' />
 

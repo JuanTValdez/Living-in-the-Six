@@ -8,7 +8,7 @@ export default function GoogleAuth() {
 		var userObject = jwtDecode(response.credential);
 
 		setUser(userObject);
-		console.log('Google Response: ', userObject);
+		console.log('Google Response: ', user);
 	};
 
 	useEffect(() => {
@@ -26,7 +26,7 @@ export default function GoogleAuth() {
 			text: 'continue_with',
 			shape: 'pill',
 		});
-	}, []);
+	}, );
 
 	return <div id='google-sign-up'></div>;
 }

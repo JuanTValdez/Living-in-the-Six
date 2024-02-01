@@ -11,12 +11,13 @@
 
 .z-index-20 {
 	z-index: 20;
-	background-color: var(--white)
+
+
 }
 
 .form-header {
 	font-family: 'Arvo-Regular';
-
+	margin-bottom: 2rem;
 
 }
 
